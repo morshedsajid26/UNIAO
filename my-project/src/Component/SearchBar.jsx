@@ -26,11 +26,21 @@ const SearchBar = () => {
                 
             </div>
 
-            <div className="icon w-[246.11px] flex justify-between items-center">
+            <div className="icon w-[246.11px] flex justify-between items-center ">
             <AiFillDollarCircle className='w-[37.11px] h-[37.11px] text-white' />
             <FaHeart className='w-[36.27px] h-[32.3px] text-white'/>
-            <FaShoppingBag className='w-[33.56px] h-[38.95px] text-white' />           
+
+
+            <div className='relative'>
+            <FaShoppingBag className='w-[33.56px] h-[38.95px] text-white  ' /> 
+
+            
+            <div className='w-7 h-7 rounded-full bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% flex items-center justify-center text-white font-OS font-bold text-[19px] absolute -top-[9px] -right-[14px] '>2
+
+            </div>
+            </div>          
             <FaCircleUser className='w-[37.06px] h-[37.06px] text-white' />
+
 
             </div>
         </Container>
