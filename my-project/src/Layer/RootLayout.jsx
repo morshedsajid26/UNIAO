@@ -1,14 +1,14 @@
 import React from 'react'
 
 
-import Navbar from '../Component/Navbar'
 import Footer from '../Component/Footer'
 import { Outlet } from 'react-router-dom'
+import Header from '../Component/Header'
 
 const RootLayout = () => {
   return (
     <div className='bg-[#15181D]'>
-        <Navbar/>
+        <Header/>
         <Outlet/>
         <Footer/>
     </div>
