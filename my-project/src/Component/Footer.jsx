@@ -8,7 +8,7 @@ const Footer = () => {
 
            <div className="top grid grid-cols-12 justify-between gap-10">
             <div className="child col-span-3 bg-slate-500">
-              <h3 className='text-[28px] text-[#FFFFFF] font-medium font- '>Trustful</h3>
+              <h3 className='text-[28px] text-[#FFFFFF] font-medium '>Trustful</h3>
             </div>
 
 
