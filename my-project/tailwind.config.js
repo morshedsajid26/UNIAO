@@ -9,6 +9,8 @@ export default {
     fontFamily: {
       
       'OS': ["Open Sans", 'serif'],
+      'pop': ["Poppins",'serif'],
+      'Inter': ["Inter",'serif']
     }
   },
   plugins: [],
