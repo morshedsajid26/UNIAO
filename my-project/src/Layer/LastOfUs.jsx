@@ -21,8 +21,9 @@ const LastOfUs = () => {
             <img src={Last} alt="" />
         </div>
 
-            <div className="right  bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] grid-cols-1 rounded-[25px]">
-                <div className='bg-[#1E2127] pt-[75px] pb-[50px] pl-[63px] rounded-[25px] '>
+            <div className="right  bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] grid-cols-1 rounded-[25px]">
+                <div className='bg-[#1E2127] pt-[75px] pb-[50px] pl-[63px] rounded-[25px] relative '>
+
 
                     <div className='icons flex items-center gap-4 md:gap-7 '>
                     
@@ -56,6 +57,9 @@ const LastOfUs = () => {
                      </div>
                     
                     </div>
+
+                    <div className="discount w-[108px] h-[125px] bg-gradient-to-tr from-[#00DBDE]  from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100%  absolute top-0 right-[70px] flex justify-center text-center items-center ">
+                        <p className='text-[28px] font-OS text-white'>Save 25%</p></div>
                 </div>
             </div>
             

@@ -67,10 +67,10 @@ const Footer = () => {
  <p className='text-white font-pop text-[24px] font-medium'>Follow Us</p>
 
  <ul className='flex  gap-2'>
-   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-l from-[#00DBDE] from-1% to-[#FC00FF] to-100% flex items-center justify-center  '><FaXTwitter /></li>
-   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-l from-[#00DBDE] from-1% to-[#FC00FF] to-100% flex items-center justify-center  '><FaInstagram /></li>
-   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-l from-[#00DBDE] from-1% to-[#FC00FF] to-100% flex items-center justify-center  '><FaFacebookF /></li>
-   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-l from-[#00DBDE] from-1% to-[#FC00FF] to-100% flex items-center justify-center  '><FaLinkedinIn /></li>
+   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  '><FaXTwitter /></li>
+   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  '><FaInstagram /></li>
+   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  '><FaFacebookF /></li>
+   <li className='w-[49px] h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  '><FaLinkedinIn /></li>
  </ul>
  </div>
 </div>
