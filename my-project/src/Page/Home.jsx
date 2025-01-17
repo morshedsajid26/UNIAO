@@ -5,10 +5,16 @@ import bannerIcons from '/bannerIcons.png'
 import { MdAddShoppingCart } from 'react-icons/md'
 import { IoStarSharp } from 'react-icons/io5'
 
+import game1 from '/game1.png'
+import game2 from '/game2.png'
+import game3 from '/game3.png'
+import game4 from '/game4.png'
+import game5 from '/game5.png'
+
 const Home = () => {
   return (
     <div>
-      <Container className='bg-[url("/public/banner.png")] py-40 relative after:absolute after:content-[""] after:h-full after:w-full after:bg-black/10 after:top-0 after:left-0 '>
+      <Container className='bg-[url("/public/banner.png")]  bg-no-repeat pb-[87px] pt-[103px] relative after:absolute after:content-[""]   after:w-full  after:bg-black/10 after:top-0 after:left-0 '>
 
      <div className='pl-[69px] z-30'>
      <img src={bannerIcons} alt="" />
@@ -35,6 +41,15 @@ const Home = () => {
       <IoStarSharp className='w-[30px] h-[28.5px] bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% bg-clip-text text-white' />
       </div>
 
+     </div>
+
+
+     <div className='flex gap-[35px] items-end mt-[103px]'>
+      <img src={game1} alt="" />
+      <img src={game2} alt="" />
+      <img src={game3} alt="" />
+      <img src={game4} alt="" />
+      <img src={game5} alt="" />
      </div>
 
      </div>
