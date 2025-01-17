@@ -10,7 +10,8 @@ import FooterLogo from '/FooterLogo.png'
 
 const Footer = () => {
   return (
-    <div className=' max-w-[1862px] mx-auto   bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px]  '>
+   <div className='py-5'>
+     <div className=' max-w-[1862px] mx-auto   bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px]  '>
        <div className='bg-[#1E2127] rounded-[25px]'>
        <Container className=' pt-[148px] pb-6'>
 
@@ -95,6 +96,7 @@ const Footer = () => {
 </Container>
        </div>
     </div>
+   </div>
   )
 }
 
