@@ -14,7 +14,7 @@ import game5 from '/game5.png'
 const Home = () => {
   return (
     <div>
-      <Container className='bg-[url("/public/banner.png")]  bg-no-repeat pb-[87px] pt-[103px] relative after:absolute after:content-[""]   after:w-full  after:bg-black/10 after:top-0 after:left-0 '>
+      <Container className='bg-[url("/public/banner.png")] h-[730px] after:rounded-[25px]  bg-no-repeat pb-[87px] pt-[103px] relative after:absolute after:content-[""] after:h-full  after:w-full  after:bg-black/10 after:top-0 after:left-0 '>
 
      <div className='pl-[69px] z-30'>
      <img src={bannerIcons} alt="" />
