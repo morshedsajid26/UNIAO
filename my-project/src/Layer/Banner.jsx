@@ -2,7 +2,7 @@ import React from 'react'
 
 import Container from '../Layer/Conatiner'
 
-import bannerIcons from '/bannerIcons.png'
+
 import { MdAddShoppingCart } from 'react-icons/md'
 import { IoStarSharp } from 'react-icons/io5'
 
