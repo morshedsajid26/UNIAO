@@ -35,10 +35,13 @@ const ResidentEvil = () => {
 
             <div className='flex gap-5 items-start mt-1 md:mt-4'>
              <div >
-               <p className='font-OS text-white/50 text-[13px] md:text-[18px]  '>From 
-               <del className='text-[21px] md:text-[28px] ml-[9px] mr-4'>$70</del>
-                to 
-                <span className='text-[21px] md:text-[28px] text-[#E614FC] ml-[6px]'>$59,99 </span></p>
+             <div className=' flex gap-2.5'>
+           <p className='font-OS text-white/50 text-[13px] md:text-[18px] flex flex-col '>From 
+           <del>$70 to</del>
+
+            </p>
+            <p className='text-[21px] md:text-[28px] text-[#E614FC] ml-[6px]'>$59,99 </p>
+           </div>
                <button className='flex  items-center gap-2 md:p-4 py-[5px] px-2 bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% rounded-xl mt-2 md:mt-[26px] cursor-pointer'>
                <MdAddShoppingCart className='md:w-[33px] md:h-[29px] w-[17px] h-[15px] text-white ' />
                <p className='font-OS md:text-[24px] text-[14px] text-white'>Buy Now</p>
