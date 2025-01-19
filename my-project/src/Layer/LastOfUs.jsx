@@ -13,7 +13,7 @@ import { IoStarSharp } from 'react-icons/io5'
 
 const LastOfUs = () => {
   return (
-    <div>
+    <div className='py-[170px]'>
          <Container className='  flex   gap-10 flex-col md:flex-row items-center'>
 
      
