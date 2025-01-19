@@ -9,12 +9,12 @@ import icon4 from '/path-3.png'
 import icon5 from '/path-4.png'
 import { IoStarSharp } from 'react-icons/io5'
 
-const GameCard = () => {
+const GameCard = ({src}) => {
   return (
     <div className='w-[393px] bg-gradient-to-t from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px]'>
         <div className='bg-[#15181D] px-3 py-[14px] rounded-[25px]'>
             <div className="img ">
-                <img src={card1} alt="" />
+                <img src={src} alt="" />
             </div>
 
             
