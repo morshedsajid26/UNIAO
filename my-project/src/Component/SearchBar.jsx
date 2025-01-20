@@ -19,7 +19,7 @@ const SearchBar = () => {
                 <img src={logo} alt="logo.png" />
             </div>
 
-            <div className="searchBar w-[853.45px] relative">
+            <div className="searchBar w-[853.45px] relative md:block hidden">
                 <input className='bg-[#1E2127] text-[#B2B8C2] font-OS text-[22px] outline-none w-full py-3 px-[23px] rounded-[10px]' type="text" placeholder='Search products, sellers, deals...' />
                
                 <IoSearch className='w-[22.5px] h-[22.5px] text-[#B2B8C2] absolute top-1/2 -translate-y-1/2 right-4' />

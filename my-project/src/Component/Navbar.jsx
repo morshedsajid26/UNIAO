@@ -21,15 +21,15 @@ const Navbar = () => {
     <div>
       <Container>
         <ul className='flex justify-between items-center pt-[46px] pb-[59px]'>
-            <Li src={Li_1}/>
+            <Li  src={Li_1}/>
             <Li src={Li_2}/>
             <Li src={Li_3}/>
             <Li src={Li_4}/>
-            <Li src={line}/>
+            <Li className='md:flex hidden' src={line}/>
             <Li src={Li_5}/>
-            <Li src={Li_6}/>
-            <Li src={Li_7}/>
-            <Li src={Li_8}/>
+            <Li className='md:flex hidden' src={Li_6}/>
+            <Li className='md:flex hidden' src={Li_7}/>
+            <Li className='md:flex hidden' src={Li_8}/>
         </ul>
 
       </Container>
