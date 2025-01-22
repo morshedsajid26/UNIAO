@@ -138,7 +138,7 @@ const Footer = () => {
  </div>
 </div>
 
-<div className="middle grid md:grid-cols-12 grid-cols-6 grid-rows-2 md:grid-rows-1 w-[298.67px] md:w-[884.82px] gap-2.5 md:gap-[18px] gap-1 mx-auto my-[53px] md:mt-[144px] md:mb-[119px]">
+<div className="middle grid md:grid-cols-12 grid-cols-6 grid-rows-2 md:grid-rows-1 w-[298.67px] md:w-[884.82px] gap-2.5 md:gap-[18px]  mx-auto my-[53px] md:mt-[144px] md:mb-[119px]">
  <img className='grid-cols-1' src={payment1} alt="" />
  <img className='grid-cols-1' src={payment2} alt="" />
  <img className='grid-cols-1' src={payment3} alt="" />

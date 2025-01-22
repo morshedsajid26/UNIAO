@@ -21,12 +21,12 @@ const Navbar = () => {
     <div>
       <Container>
         <ul className='flex justify-between items-center pt-[46px] pb-[59px]'>
-            <Li  src={Li_1}/>
-            <Li src={Li_2}/>
-            <Li src={Li_3}/>
-            <Li src={Li_4}/>
+            <Li imageClass='md:w-auto md:h-auto h-[24.31px] w-[31.5px] '  src={Li_1}/>
+            <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_2}/>
+            <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_3}/>
+            <Li imageClass='md:w-auto md:h-auto h-[25.5px] w-[18.4px] ' src={Li_4}/>
             <Li className='md:flex hidden' src={line}/>
-            <Li src={Li_5}/>
+            <Li imageClass='md:w-auto md:h-auto h-[24.5px] w-[36.64px] ' src={Li_5}/>
             <Li className='md:flex hidden' src={Li_6}/>
             <Li className='md:flex hidden' src={Li_7}/>
             <Li className='md:flex hidden' src={Li_8}/>
