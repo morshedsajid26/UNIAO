@@ -17,7 +17,7 @@ const NewArrivals = () => {
                 <div className='h-[2px] w-[1140px] bg-custom-gradient'
                 ></div>
 
-                <button className='font-OS text-white text-[24px] py-4 px-[18px] border rounded-[10px] '>
+                <button className='font-OS text-white text-[24px] py-4 px-[18px] border rounded-[10px] cursor-pointer '>
                     Browse All
                 </button>
             </div>
