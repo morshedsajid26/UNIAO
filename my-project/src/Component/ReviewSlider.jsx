@@ -36,20 +36,7 @@ const ReviewSlider = ({ items }) => {
           slidesToScroll: 1,
         },
       },
-      {
-        breakpoint: 736,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 414,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
+      
     ],
   };
 
