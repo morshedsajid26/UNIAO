@@ -6,6 +6,8 @@ import NewArrivals from '../Layer/NewArrivals'
 import Review from '../Layer/Review'
 import SignUp from '../Layer/SignUp'
 
+import Offer from '../Layer/Offer'
+
 const Home = () => {
   return (
     <div>
@@ -14,7 +16,10 @@ const Home = () => {
       <LastOfUs/>
       <NewArrivals/>
       <ResidentEvil/>
+      <Offer/>
       <SignUp/>
+
+      
      
     </div>
   )
