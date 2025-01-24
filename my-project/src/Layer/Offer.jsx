@@ -13,6 +13,16 @@ import aliad from '/aliad.png'
 import autoDesk from '/autoDesk.png'
 import maya from '/maya.png'
 import max from '/max.png'
+import GiftCard from '../Component/GiftCard'
+
+
+import google from '/google.png'
+import amazon from '/amazon.png'
+import nintendo from '/nintendo.png'
+import xbox from '/xbox.png'
+import playstation from '/playstation.png'
+
+
 
 
 const Offer = () => {
@@ -89,6 +99,47 @@ const Offer = () => {
                     <button className='border py-3 px-[18px] text-white font-OS text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
+                </div>
+
+
+                <div className="bottom flex flex-col gap-[21px] mt-[43px]">
+                    <GiftCard
+                    image={google}
+                    imageClass='bg-[#4285F4]'
+                    heading='Google Play'
+                    price='Starts at $9,99'
+                    />
+
+                    <GiftCard
+                    image={amazon}
+                    imageClass='bg-[#F79400]'
+                    heading='Google Play'
+                    price='Starts at $9,99'
+                    />
+
+
+                    <GiftCard
+                    image={nintendo}
+                    imageClass='bg-[#FF0045]'
+                    heading='Google Play'
+                    price='Starts at $9,99'
+                    />
+
+
+                    <GiftCard
+                    image={xbox}
+                    imageClass='bg-[#0F780F]'
+                    heading='Google Play'
+                    price='Starts at $9,99'
+                    />
+
+
+                    <GiftCard
+                    image={playstation}
+                    imageClass='bg-[#004197]'
+                    heading='Google Play'
+                    price='Starts at $9,99'
+                    />
                 </div>
             </div>
 
