@@ -2,7 +2,7 @@ import React from 'react'
 
 const GiftCard = ({imageClass,image,heading,price,children}) => {
   return (
-    <div className='w-[524px] h-[148px] bg-[#1E2127] rounded-[20px] flex items-center  px-2.5 '>
+    <div className='w-[327px] md:w-[524px] h-[148px] bg-[#1E2127] rounded-[20px] flex items-center  px-2.5 '>
 
         <div className={`w-[128px] h-[128px]  rounded-[20px] flex items-center justify-center ${imageClass}`}>
             <img  src={image} alt="" />

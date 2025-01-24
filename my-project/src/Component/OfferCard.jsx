@@ -4,7 +4,7 @@ import offer1 from '/offer1.png'
 
 const OfferCard = ({image,heading,save,price,to,from}) => {
   return (
-    <div className='w-[524px] h-[148px] bg-[#1E2127] rounded-[20px] flex items-center  px-2.5 '>
+    <div className='w-[327px] md:w-[524px] h-[148px] bg-[#1E2127] rounded-[20px] flex items-center  px-2.5 '>
 
         <div className="image">
             <img src={image} alt="" />
