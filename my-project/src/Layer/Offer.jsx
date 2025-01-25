@@ -31,10 +31,10 @@ const Offer = () => {
         <Container className='w-[327px] md:w-full grid md:grid-cols-3  gap-[76px]'>
 
             <div className="left">
-                <div className="top flex justify-between">
-                    <h3 className='text-[36px] text-white font-OS'>Special Offers</h3>
+                <div className="top flex justify-between items-center">
+                    <h3 className='text-[16px] md:text-[36px] text-white font-OS'>Special Offers</h3>
 
-                    <button className='border py-3 px-[18px] text-white font-OS text-[24px] rounded-[10px]'>
+                    <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
                 </div>
@@ -93,10 +93,10 @@ const Offer = () => {
             </div>
 
             <div className="middle">
-            <div className="top flex justify-between">
-                    <h3 className='text-[36px] text-white font-OS'>Gift Cards</h3>
+            <div className="top flex justify-between items-center">
+            <h3 className='text-[16px] md:text-[36px] text-white font-OS'>Gift Cards</h3>
 
-                    <button className='border py-3 px-[18px] text-white font-OS text-[24px] rounded-[10px]'>
+            <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
                 </div>
@@ -144,10 +144,10 @@ const Offer = () => {
             </div>
 
             <div className="right">
-            <div className="top flex justify-between">
-                    <h3 className='text-[36px] text-white font-OS'>Software Deals</h3>
+            <div className="top flex justify-between items-center">
+            <h3 className='text-[16px] md:text-[36px] text-white font-OS'>Software Deals</h3>
 
-                    <button className='border py-3 px-[18px] text-white font-OS text-[24px] rounded-[10px]'>
+            <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
                 </div>
