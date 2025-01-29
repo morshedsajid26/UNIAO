@@ -25,7 +25,11 @@ const Navbar = () => {
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_2}/>
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_3}/>
             <Li imageClass='md:w-auto md:h-auto h-[25.5px] w-[18.4px] ' src={Li_4}/>
-            <Li className='md:flex hidden' src={line}/>
+            
+            <li className='md:flex hidden ' >
+              <img src={line} alt="" />
+              </li>
+              
             <Li imageClass='md:w-auto md:h-auto h-[24.5px] w-[36.64px] ' src={Li_5}/>
             <Li className='md:flex hidden' src={Li_6}/>
             <Li className='md:flex hidden' src={Li_7}/>
