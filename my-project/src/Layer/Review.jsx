@@ -12,29 +12,29 @@ import Container from "./Conatiner";
 
 
 const Review = () => {
-  let reviews = [
-    {
-      name: "Abdul Ahad",
-      image: review1,
-      star: 5,
-      reviewText:
-        "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
-    },
-    {
-      name: "Aryan",
-      image: review2,
-      star: 5,
-      reviewText:
-        "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
-    },
-    {
-      name: "Farabi",
-      image: review3,
-      star: 5,
-      reviewText:
-        "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
-    }
-  ];
+  // let reviews = [
+  //   {
+  //     name: "Abdul Ahad",
+  //     image: review1,
+  //     star: 5,
+  //     reviewText:
+  //       "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+  //   },
+  //   {
+  //     name: "Aryan",
+  //     image: review2,
+  //     star: 5,
+  //     reviewText:
+  //       "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+  //   },
+  //   {
+  //     name: "Farabi",
+  //     image: review3,
+  //     star: 5,
+  //     reviewText:
+  //       "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+  //   }
+  // ];
   return (
     <div>
       <Container className="flex items-center py-16 md:py-32 gap-x-16 relative ">
@@ -50,11 +50,11 @@ const Review = () => {
             <img className=" h-5 lg:h-10 w-5 lg:w-10" src={star} alt="star" />
           </div>
         </div>
-        <div className="right">
+        {/* <div className="right">
           <div className="slide absolute top-1/2 -translate-y-1/2 left-1/3 sm:left-1/4 lg:left-1/3 xl:left-1/4 w-[200%]">
             <ReviewSlider items={reviews} />
           </div>
-        </div>
+        </div> */}
       </Container>
     </div>
   );
