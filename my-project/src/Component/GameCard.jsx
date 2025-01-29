@@ -39,12 +39,12 @@ const GameCard = ({src}) => {
             </div>
 
             <div className="icon flex gap-7 justify-center">
-            <img className='md:w-full w-[15.61px] h-[12.05px] md:h-full' src={icon1} alt="" />
-            <img className='md:w-full w-3 h-3 md:h-full' src={icon2} alt="" />
+            <img className='md:w-[39px] w-[15.61px] h-[12.05px] md:h-[30px]' src={icon1} alt="" />
+            <img className='md:w-[30px] w-3 h-3 md:h-[30px]' src={icon2} alt="" />
             <img className='md:h-[30px] md:w-[30px] h-3 w-3' src={icon3} alt="" />
             <img className='w-[1px] h-[11px] md:h-[29px]' src={line} alt="" />
-            <img className='w-[13.5px] md:w-full h-[13.5px] md:h-full'  src={icon4} alt="" />
-            <img className='w-[13.5px] md:w-full h-[13.5px] md:h-full' src={icon5} alt="" />
+            <img className='w-[13.5px] md:w-[33.5px] h-[13.5px] md:h-[33.5px]'  src={icon4} alt="" />
+            <img className='w-[13.5px] md:w-[33.5px] h-[13.5px] md:h-[33.5px]' src={icon5} alt="" />
             </div>
         </div>
     </div>
