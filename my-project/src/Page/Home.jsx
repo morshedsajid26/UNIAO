@@ -7,6 +7,7 @@ import Review from '../Layer/Review'
 import SignUp from '../Layer/SignUp'
 
 import Offer from '../Layer/Offer'
+import ComingSoon from '../Layer/ComingSoon'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <LastOfUs/>
       <NewArrivals/>
       <ResidentEvil/>
+      <ComingSoon/>
       <Offer/>
       <SignUp/>
 
