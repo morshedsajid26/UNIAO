@@ -34,6 +34,9 @@ const Offer = () => {
                 <div className="top flex justify-between items-center">
                     <h3 className='text-[16px] md:text-[36px] text-white font-OS'>Special Offers</h3>
 
+                    <div className='block md:hidden h-[1px] w-[134px] bg-custom-gradient'
+                ></div>
+
                     <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
@@ -96,6 +99,9 @@ const Offer = () => {
             <div className="top flex justify-between items-center">
             <h3 className='text-[16px] md:text-[36px] text-white font-OS'>Gift Cards</h3>
 
+            <div className='block md:hidden h-[1px] w-[134px] bg-custom-gradient'
+                ></div>
+
             <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
@@ -144,8 +150,11 @@ const Offer = () => {
             </div>
 
             <div className="right">
-            <div className="top flex justify-between items-center">
+            <div className="top flex justify-between  items-center">
             <h3 className='text-[16px] md:text-[36px] text-white font-OS'>Software Deals</h3>
+
+            <div className='block md:hidden h-[1px] w-[134px] bg-custom-gradient'
+                ></div>
 
             <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
