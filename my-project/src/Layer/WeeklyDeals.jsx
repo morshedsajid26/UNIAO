@@ -17,15 +17,15 @@ import { FaRegHeart } from 'react-icons/fa'
 
 let WeeklyGame = ({src}) => {
   return (
-    <div className='w-[157px] md:w-[393px] g-gradient-to-t from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[20px] md:rounded-[25px]'>
+    <div className='w-[157px] md:w-[393px] rounded-[20px] md:rounded-[25px]'>
         <div className='bg-[#1E2127] p-[6px] md:px-3 md:py-[14px] rounded-[20px] md:rounded-[25px]'>
             <div className="img relative">
                 <img className='w-[146px] h-[114px] md:w-full md:h-full' src={src} alt="" />
 
-                <div className='absolute h-[54px] w-[86px] rounded-full bg-gradient-to-t from-[#FF0000] from-1% to-[#FFC700] to-100% top-3 left-3 flex items-center justify-center'> 
-                    <p className='font-OS font-semibold text-[24px]'>-25%</p>
+                <div className='absolute h-[22px] md:h-[54px] w-[44px] md:w-[86px] rounded-full bg-gradient-to-t from-[#FF0000] from-1% to-[#FFC700] to-100% top-1 left-1 md:top-3 md:left-3 flex items-center justify-center'> 
+                    <p className='font-OS font-semibold text-[12px] md:text-[24px]'>-25%</p>
                     </div>
-                <div className='absolute h-[54px] w-[54px] rounded-full bg-white/80 top-3 right-3 flex items-center justify-center'>
+                <div className='hidden  absolute h-[54px] w-[54px] rounded-full bg-white/80 top-3 right-3 md:flex items-center justify-center'>
                 <FaRegHeart className='w-[31.2px] h-[27.79px]' /></div>
             </div>
 
@@ -65,7 +65,7 @@ let WeeklyGame = ({src}) => {
 
 const WeeklyDeals = () => {
   return (
-    <div className='w-[1763px] mx-auto bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px]'>
+    <div className='md:w-[1763px] mx-auto bg-transparent md:bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px]'>
         <div className='bg-[#15181D] rounded-[25px] py-[43px]'>
         <Container>
 
@@ -73,32 +73,70 @@ const WeeklyDeals = () => {
             <h1 className='text-[16px] md:text-[36px] font-OS text-white'>Weekly Deals</h1>
            
 
-
+            <div className='h-[1px] md:h-[2px] w-[60px] md:hidden block bg-custom-gradient'
+            ></div>
             
 
             <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                     Browse All
                 </button>
 
-                <div className='h-[1px] md:h-[2px] w-[60px] md:w-[772px] bg-custom-gradient'
+                <div className='h-[1px] md:block hidden md:h-[2px] w-[60px] md:w-[772px] bg-custom-gradient'
             ></div>
+
+            <div className="time hidden  w-[358px] md:flex justify-between items-center">
+
+                <div className='w-[63px] h-[58px] bg-gradient-to-tr from-[#00DBDE] from-0% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% rounded-[10px] flex items-center justify-center '>
+
+                    <p className='font-OS text-[24px] text-white'>6</p>
+
+                </div>
+
+                <span className='font-OS text-white/50 text-[40px] font-semibold'>:</span>
+
+
+                <div className='w-[63px] h-[58px] bg-gradient-to-tr from-[#00DBDE] from-0% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% rounded-[10px] flex items-center justify-center '>
+
+                    <p className='font-OS text-[24px] text-white'>6</p>
+
+                </div>
+
+                <span className='font-OS text-white/50 text-[40px] font-semibold'>:</span>
+
+
+                <div className='w-[63px] h-[58px] bg-gradient-to-tr from-[#00DBDE] from-0% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% rounded-[10px] flex items-center justify-center '>
+
+                    <p className='font-OS text-[24px] text-white'>6</p>
+
+                </div>
+
+                <span className='font-OS text-white/50 text-[40px] font-semibold'>:</span>
+
+
+                <div className='w-[63px] h-[58px] bg-gradient-to-tr from-[#00DBDE] from-0% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% rounded-[10px] flex items-center justify-center '>
+
+                    <p className='font-OS text-[24px] text-white'>6</p>
+
+                </div>
+
+            </div>
 
         </div>
 
 
-            <div className='flex gap-[29.5px]'>
+            <div className='grid grid-cols-2 md:grid-cols-4  gap-[29.5px]'>
                 <WeeklyGame
                 src={card1}/>
 
-<WeeklyGame
+                <WeeklyGame
                 src={card2}/>
 
 
-<WeeklyGame
+                <WeeklyGame
                 src={card3}/>
 
 
-<WeeklyGame
+                <WeeklyGame
                 src={card4}/>
             </div>
            
