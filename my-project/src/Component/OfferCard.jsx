@@ -1,6 +1,6 @@
 import React from 'react'
 
-import offer1 from '/offer1.png'
+
 
 const OfferCard = ({image,heading,save,price,to,from}) => {
   return (
