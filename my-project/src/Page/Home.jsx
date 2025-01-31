@@ -8,12 +8,14 @@ import SignUp from '../Layer/SignUp'
 
 import Offer from '../Layer/Offer'
 import ComingSoon from '../Layer/ComingSoon'
+import WeeklyDeals from '../Layer/WeeklyDeals'
 
 const Home = () => {
   return (
     <div>
       <Banner/>
       <Review/>
+      <WeeklyDeals/>
       <LastOfUs/>
       <NewArrivals/>
       <ResidentEvil/>
