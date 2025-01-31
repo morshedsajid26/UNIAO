@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import card1 from '/card1.png'
 import line from '/line.png'
@@ -9,12 +9,17 @@ import icon4 from '/path-3.png'
 import icon5 from '/path-4.png'
 import { IoStarSharp } from 'react-icons/io5'
 
-const GameCard = ({src}) => {
+const GameCard = ({src,discount}) => {
+
+    let [showDiscount , setShowDiscount]= useState(discount);
   return (
     <div className='w-[157px] md:w-[393px] bg-gradient-to-t from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[20px] md:rounded-[25px]'>
         <div className='bg-[#15181D] p-[6px] md:px-3 md:py-[14px] rounded-[20px] md:rounded-[25px]'>
-            <div className="img ">
+            <div className="img relative ">
                 <img className='w-[146px] h-[114px] md:w-full md:h-full' src={src} alt="" />
+                <div className={`absolute h-[22px] md:h-[54px] w-[44px] md:w-[86px] rounded-full bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% top-1 left-1 md:top-3 md:left-3 flex items-center justify-center ${ showDiscount ? "hidden":"block"} `}> 
+                    <p className='font-OS font-semibold text-[12px] md:text-[24px] text-white'>-25%</p>
+                    </div>
             </div>
 
             

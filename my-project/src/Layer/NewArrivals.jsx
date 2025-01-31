@@ -28,7 +28,8 @@ const NewArrivals = () => {
 
             <div className=' grid grid-cols-2 md:grid-cols-4 md:grid-rows-2 gap-[47px]'>
                 <GameCard
-                src={card1}/>
+                src={card1}
+                discount={false}/>
 
                 <GameCard
                 src={card2}/>
