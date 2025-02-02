@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './Conatiner'
+import Container from './Container'
 import OfferCard from '../Component/OfferCard'
 
 import offer1 from '/offer1.png'

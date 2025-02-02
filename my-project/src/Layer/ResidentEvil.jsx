@@ -6,7 +6,7 @@ import path4 from '/path-4.png'
 import line from '/line.png'
 import { MdAddShoppingCart } from 'react-icons/md'
 import { IoStarSharp } from 'react-icons/io5'
-import Container from './Conatiner'
+import Container from './Container'
 
 import resident from '/resident.png'
 

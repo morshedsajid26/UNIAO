@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Layer/Conatiner'
+import Container from '../Layer/Container'
 
 import star from '/star.png'
 import trustpilot from '/trustpilot.png'

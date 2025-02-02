@@ -9,6 +9,7 @@ import SignUp from '../Layer/SignUp'
 import Offer from '../Layer/Offer'
 import ComingSoon from '../Layer/ComingSoon'
 import WeeklyDeals from '../Layer/WeeklyDeals'
+import Blog from '../Layer/Blog'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <ComingSoon/>
       <Offer/>
       <SignUp/>
+      <Blog/>
 
       
      

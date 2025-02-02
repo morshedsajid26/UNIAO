@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Container from '../Layer/Conatiner'
+import Container from '../Layer/Container'
 
 
 import { MdAddShoppingCart } from 'react-icons/md'

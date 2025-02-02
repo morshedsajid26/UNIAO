@@ -8,7 +8,7 @@ import review2 from "/review2.png";
 import review3 from "/review3.png";
 
 import ReviewSlider from "../Component/ReviewSlider";
-import Container from "./Conatiner";
+import Container from "./Container";
 
 
 const Review = () => {

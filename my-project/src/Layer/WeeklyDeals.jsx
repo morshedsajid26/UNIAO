@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './Conatiner'
+import Container from './Container'
 
 import card1 from '/card1.png'
 import card2 from '/card2.png'

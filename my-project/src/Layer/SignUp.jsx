@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Layer/Conatiner'
+import Container from '../Layer/Container'
 
 import email from '/email-1.png'
 

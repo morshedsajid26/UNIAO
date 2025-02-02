@@ -9,7 +9,7 @@ import { AiFillDollarCircle } from "react-icons/ai";
 import { FaHeart } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaCircleUser } from "react-icons/fa6";
-import Container from '../Layer/Conatiner';
+import Container from '../Layer/Container';
 
 
 

@@ -12,7 +12,7 @@ import Li_5 from '/Li-5.png'
 import Li_6 from '/Li-6.png'
 import Li_7 from '/Li-7.png'
 import Li_8 from '/Li-8.png'
-import Container from '../Layer/Conatiner';
+import Container from '../Layer/Container';
 
 
 
