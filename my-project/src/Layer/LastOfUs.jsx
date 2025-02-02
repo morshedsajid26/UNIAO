@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './Conatiner'
+import Container from './Container'
 
 import Last from '/LastOfUs.png'
 
