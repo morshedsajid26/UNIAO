@@ -22,8 +22,8 @@ const Home = () => {
       <ResidentEvil/>
       <ComingSoon/>
       <Offer/>
-      <SignUp/>
       <Blog/>
+      <SignUp/>
 
       
      

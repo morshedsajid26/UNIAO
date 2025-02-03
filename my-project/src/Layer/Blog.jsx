@@ -1,9 +1,53 @@
 import React from 'react'
 import Container from './Container'
 
+import blog1 from '/blog1.png'
+import blog2 from '/blog2.png'
+import { PiClockCountdownFill } from 'react-icons/pi'
+import { IoMdEye } from 'react-icons/io'
+
+
+let BlogCard =({src})=> {
+  return (
+    <div className='w-[817px] bg-[#1E2127] rounded-[30px] flex items-center gap-[35px] py-[27px] px-[24px]'>
+      <div>
+        <img src={src} alt="" />
+      </div>
+
+      <div className='w-[330px]'>
+              <p className='font-OS text-[30px] text-white'>Game Keys The Best 
+              Websites for Affordable 
+              Gaming Deals</p>
+
+              <p className='font-OS text-[28px] text-[#E614FC] mt-9 mb-[21px]'>19 Sep, 23</p>
+
+              <div className="icon flex gap-[22px] text-white/40">
+             
+              <div className='flex items-center gap-[7px] '>
+              <PiClockCountdownFill className='w-[31px] h-[31px] ' />
+              <p className='font-OS text-[20px]'>3 min read</p>
+              </div>
+
+              <div className='flex items-center gap-[7px]  '>
+              <IoMdEye className='w-[33px] h-[26px]'/>
+              <p className='font-OS text-[20px]'>1230</p>
+              </div>
+
+              </div>
+      </div>
+
+    </div>
+
+
+
+
+  )
+}
+
+
 const Blog = () => {
   return (
-    <div>
+    <div className='pt-[168px]'>
         <Container>
 
         <div className='flex items-center justify-center gap-[43px] mb-[35px]'>
@@ -18,6 +62,16 @@ const Blog = () => {
                 <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>
                         Browse All
                     </button>
+            </div>
+
+
+            <div className='flex justify-between mt-[42px]'>
+              <BlogCard
+              src={blog1}/>
+            
+
+            <BlogCard
+              src={blog2}/>
             </div>
 
         </Container>
