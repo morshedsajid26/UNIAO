@@ -92,7 +92,7 @@ const ComingSoon = () => {
     //     ]
     //   };
   return (
-    <div>
+    <div className='pt-[185px]'>
     <Container>
         <div className='flex items-center justify-center gap-[43px] mb-[35px]'>
             <h1 className='text-[16px] md:text-[36px] font-OS text-white'>Coming Soon</h1>
