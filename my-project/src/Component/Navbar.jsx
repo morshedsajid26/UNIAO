@@ -21,7 +21,7 @@ const Navbar = () => {
     <div>
       <Container>
         <ul className='flex justify-between items-center pt-[46px] pb-[59px]'>
-            <Li imageClass='md:w-auto md:h-auto h-[24.31px] w-[31.5px] '  src={Li_1}/>
+            <Li href='/shop/' imageClass='md:w-auto md:h-auto h-[24.31px] w-[31.5px] '  src={Li_1}/>
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_2}/>
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_3}/>
             <Li imageClass='md:w-auto md:h-auto h-[25.5px] w-[18.4px] ' src={Li_4}/>
