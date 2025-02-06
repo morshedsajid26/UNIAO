@@ -16,21 +16,22 @@ const Shop = () => {
         </Container>
 
         <Container className='flex gap-[29.5px] mt-20'>
-          <div className="left w-[393px] bg-slate-500 hidden md:block">
-           
-            <div className="sort-by bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[30px]">
-              <div className='bg-[#15181D] rounded-[30px] px-7'>
+          <div className="left w-[393px]  hidden md:flex md:flex-col gap-10" >
+
+
+          <div className="deliver bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[30px]">
+              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
                 <div className='up flex items-center justify-between'>
-                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Sort by</p>
+                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Delivery</p>
                   <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
                 </div>
 
-                <div className="down">
+                {/* <div className="down mt-[27px] flex flex-col gap-5">
 
                  <CheckBox
                  id='recent'
                  htmlFor='recent'
-                 name='recent'
+                 name='sort'
                  labelText='Most Recent'
                  />
                   
@@ -38,12 +39,14 @@ const Shop = () => {
                 <CheckBox
                  id='items'
                  htmlFor='items'
+                 name='sort'
                  labelText='Features Items'
                  />
 
                 <CheckBox
                  id='sellers'
                  htmlFor='sellers'
+                 name='sort'
                  labelText='Best Sellers'
                  />
 
@@ -52,6 +55,7 @@ const Shop = () => {
                 <CheckBox
                  id='reviews'
                  htmlFor='reviews'
+                 name='sort'
                  labelText='Best Reviews'
                  />
 
@@ -60,7 +64,191 @@ const Shop = () => {
                 <CheckBox
                  id='price'
                  htmlFor='price'
+                 name='sort'
                  labelText='Lowest to highest price'
+                 />
+
+
+
+
+
+                </div> */}
+
+
+              </div>
+            </div>
+           
+            <div className="sort-by bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[30px]">
+              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
+                <div className='up flex items-center justify-between'>
+                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Sort by</p>
+                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                </div>
+
+                <div className="down mt-[27px] flex flex-col gap-5">
+
+                 <CheckBox
+                 id='recent'
+                 htmlFor='recent'
+                 name='sort'
+                 labelText='Most Recent'
+                 />
+                  
+                  
+                <CheckBox
+                 id='items'
+                 htmlFor='items'
+                 name='sort'
+                 labelText='Features Items'
+                 />
+
+                <CheckBox
+                 id='sellers'
+                 htmlFor='sellers'
+                 name='sort'
+                 labelText='Best Sellers'
+                 />
+
+
+
+                <CheckBox
+                 id='reviews'
+                 htmlFor='reviews'
+                 name='sort'
+                 labelText='Best Reviews'
+                 />
+
+
+
+                <CheckBox
+                 id='price'
+                 htmlFor='price'
+                 name='sort'
+                 labelText='Lowest to highest price'
+                 />
+
+
+
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+
+            <div className="price bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[30px]">
+              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
+                <div className='up flex items-center justify-between'>
+                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Price</p>
+                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                </div>
+
+                <div className="down mt-[27px] flex flex-col gap-5">
+
+                 <CheckBox
+                 id='10'
+                 htmlFor='10'
+                 name='price'
+                 labelText='$10 to $25'
+                 />
+                  
+                  
+                <CheckBox
+                 id='25'
+                 htmlFor='25'
+                 name='price'
+                 labelText='$25 to $50'
+                 />
+
+                <CheckBox
+                 id='50'
+                 htmlFor='50'
+                 name='price'
+                 labelText='$50 to $100'
+                 />
+
+
+
+                <CheckBox
+                 id='100'
+                 htmlFor='100'
+                 name='price'
+                 labelText='$100 to $200'
+                 />
+
+
+
+                <CheckBox
+                 id='price'
+                 htmlFor='price'
+                 name='price'
+                 labelText='Lowest to highest price'
+                 />
+
+
+
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+            <div className="seller bg-gradient-to-b from-[#FC00FF] from-1% via-[#7E6EEF] via-47% to-[#00DBDE] to-100%  p-[2px] rounded-[30px]">
+              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
+                <div className='up flex items-center justify-between'>
+                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Price</p>
+                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                </div>
+
+                <div className="down mt-[27px] flex flex-col gap-5">
+
+                 <CheckBox
+                 id='one'
+                 htmlFor='one'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+                  
+                  
+                <CheckBox
+                 id='25'
+                 htmlFor='25'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+                <CheckBox
+                 id='50'
+                 htmlFor='50'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+
+
+                <CheckBox
+                 id='100'
+                 htmlFor='100'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+
+
+                <CheckBox
+                 id='price'
+                 htmlFor='price'
+                 name='seller'
+                 labelText='Seller Name'
                  />
 
 

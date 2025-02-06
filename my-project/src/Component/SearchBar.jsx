@@ -3,6 +3,7 @@ import React from 'react'
 import logo from '/logo.png'
 
 import menu from '/MenuBar.png'
+import Badge from '@mui/material/Badge';
 
 import { IoSearch } from "react-icons/io5";
 import { AiFillDollarCircle } from "react-icons/ai";
@@ -35,7 +36,9 @@ const SearchBar = () => {
 
 
             <div className='relative'>
+            <Badge badgeContent={2} color="primary">
             <FaShoppingBag className='w-[22.19px] md:w-[33.56px] h-[25.76px] md:h-[38.95px] text-white  ' /> 
+            </Badge>
 
             
             {/* <div className='w-[17px] md:w-7 h-[17px] md:h-7 rounded-full bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% flex items-center justify-center text-white font-OS font-bold text-[11px] md:text-[19px] absolute -top-[9px] -right-[14px] '>2
