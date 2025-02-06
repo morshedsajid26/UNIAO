@@ -30,6 +30,7 @@ const Shop = () => {
                  <CheckBox
                  id='recent'
                  htmlFor='recent'
+                 name='recent'
                  labelText='Most Recent'
                  />
                   
