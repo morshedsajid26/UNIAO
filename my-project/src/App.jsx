@@ -9,6 +9,7 @@ import {
 import RootLayout from './Layer/RootLayout';
 import Home from './Page/Home';
 import Shop from './Page/Shop';
+import ProductDeatils from './Page/ProductDeatils';
 
 
 const router = createBrowserRouter(
@@ -16,6 +17,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home/>}/>
       <Route path='/shop/' element={<Shop/>}/>
+      <Route path='/product/details/' element={<ProductDeatils/>}/>
    
 
 

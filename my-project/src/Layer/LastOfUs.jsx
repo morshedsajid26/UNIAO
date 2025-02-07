@@ -10,19 +10,22 @@ import path4 from '/path-4.png'
 import line from '/line.png'
 import { MdAddShoppingCart } from 'react-icons/md'
 import { IoStarSharp } from 'react-icons/io5'
+import { useNavigate } from 'react-router-dom'
 
 const LastOfUs = () => {
+
+  let nevigate= useNavigate()
   return (
-    <div className='py-[170px]'>
-         <Container className='  flex   gap-10 flex-col md:flex-row items-center'>
+    <div  className='py-[170px]' >
+         <Container  className='  flex   gap-10 flex-col md:flex-row items-center'>
 
      
          <div className="left   md:w-full w-[327px]">
-<img src={Last} alt="" />
+<img  src={Last} alt="" />
 </div>
 
 
-<div className="right  bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] grid-cols-1 rounded-[25px] md:w-full w-[327px]">
+<div  className="right  bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] grid-cols-1 rounded-[25px] md:w-full w-[327px]">
     <div className='bg-[#1E2127] pt-[26px] md:pt-[75px] pb-6 md:pb-[50px] pl-5 md:pl-[63px] rounded-[25px] relative '>
 
 
@@ -46,7 +49,7 @@ const LastOfUs = () => {
             </p>
             <p className='text-[21px] md:text-[28px] text-[#E614FC] ml-[6px]'>$59,99 </p>
            </div>
-           <button className='flex  items-center gap-2 md:p-4 py-[5px] px-2 bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% rounded-xl mt-2 md:mt-[26px] cursor-pointer'>
+           <button onClick={()=> nevigate ('/product/details/')} className='flex  items-center gap-2 md:p-4 py-[5px] px-2 bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% rounded-xl mt-2 md:mt-[26px] cursor-pointer'>
            <MdAddShoppingCart className='md:w-[33px] md:h-[29px] w-[17px] h-[15px] text-white ' />
            <p className='font-OS md:text-[24px] text-[14px] text-white'>Buy Now</p>
            </button>
