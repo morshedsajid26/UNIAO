@@ -328,7 +328,7 @@ const Shop = () => {
 
 
 
-<div className={`down  flex flex-col gap-5 ${show? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+<div className={`down  flex flex-col gap-5 ${show? "visible opacity-100 h-auto overflow-auto": "invisible opacity-0 h-0  overflow-hidden"}`}>
 
                  <CheckBox
                  id='one'
