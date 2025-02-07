@@ -22,7 +22,7 @@ import line from '/line.png'
 
 const Banner = () => {
   return (
-    <div className='pb-4'>
+    <div className='pb-4 mt-[50px]'>
 
 <Container className='bg-[url("/public/banner.png")] h-[445px] md:w-full bg-cover bg-center  w-[327px] md:h-[730px] after:rounded-[25px]  bg-no-repeat pb-[42px] md:pb-[87px]  pt-[103px] relative after:absolute after:content-[""] after:h-full  after:w-full  after:bg-black/10 after:top-0 after:left-0 after:-z-30 md:block flex items-end rounded-[25px] '>
 
