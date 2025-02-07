@@ -20,7 +20,9 @@ const SearchBar = () => {
         <Container className='border-b border-white/10 pt-[50px] pb-[18.5px] md:pb-[36px] flex items-center justify-between'>
             <div className="logo md:w-[213.63px] flex gap-[14px] items-center">
               <img className='block md:hidden' src={menu} alt="" />
+                <a href="/">
                 <img className='w-[121.16px] md:w-full' src={logo} alt="logo.png" />
+                </a>
             </div>
 
             <div className="searchBar w-[853.45px] relative md:block hidden">
