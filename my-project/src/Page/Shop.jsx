@@ -328,12 +328,7 @@ const Shop = () => {
 
 
 
-
-                </div>
-
-
-
-                <div className={`down  flex flex-col gap-5 ${show? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+<div className={`down  flex flex-col gap-5 ${show? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='one'
@@ -385,6 +380,11 @@ const Shop = () => {
                 </div>:<div className='cursor-pointer mt-4'>
                   <p onClick={()=> setShow(!show)}  className='text-[24px] font-OS font-semibold text-[#FB01FF] underline'>+ See All</p>
                 </div>}
+                </div>
+
+
+
+                
 
 
               </div>
