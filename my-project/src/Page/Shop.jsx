@@ -226,12 +226,17 @@ const Shop = () => {
 
 
 
-                <CheckBox
-                 id='price'
-                 htmlFor='price'
-                 name='price'
-                 labelText='Lowest to highest price'
-                 />
+                
+
+                <div className='flex  items-center gap-2'>
+              <input name='price' id='custom' type="radio" className='w-6 h-6 appearance-none relative bg-white rounded-full after:absolute after:content-[""] after:w-[15px] after:h-[15px] after:bg-[#E1E1E5] after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full checked:after:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100%' />
+              
+              <label htmlFor='custom' className='font-OS text-white text-2xl'>From</label>
+              <input type="text" placeholder='$0' className='outline-none pl-[11px] py-[3px] bg-[#1E2127] font-OS text-[22px] text-[#B2B8C2] w-[93px] h-[54px] rounded-[15px]' />
+
+              <label htmlFor='custom' className='font-OS text-white text-2xl'>to</label>
+              <input type="text" placeholder='$0' className='outline-none pl-[11px] py-[3px] bg-[#1E2127] font-OS text-[22px] text-[#B2B8C2] w-[93px] h-[54px] rounded-[15px]' />
+              </div>
 
 
 
