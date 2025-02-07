@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from '../Layer/Container'
 import Paginate from '../Component/Paginate'
+import Switch from '../Component/Switch'
 
-import { MdKeyboardArrowDown } from 'react-icons/md'
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import CheckBox from '../Component/CheckBox'
+import { HiLightningBolt } from 'react-icons/hi'
 
 const Shop = () => {
+  let [delivery,setDelivery] = useState(false);
+  let [sort,setSort] = useState(false);
+  let [price,setPrice] = useState(false);
+  let [seller,setSeller] = useState(false);
+  let [show,setShow]= useState(false);
   return (
     <div>
         <Container className='mt-[19px] flex flex-row md:gap-6 gap-2'>
@@ -23,7 +30,10 @@ const Shop = () => {
               <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Delivery</p>
-                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                  {
+                    delivery? <MdKeyboardArrowDown onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                  }
                 </div>
 
                 {/* <div className="down mt-[27px] flex flex-col gap-5">
@@ -74,6 +84,33 @@ const Shop = () => {
 
                 </div> */}
 
+                  <div className={`down flex flex-col gap-6  ${delivery? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+                  
+                  <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                  <HiLightningBolt className='w-[30px] h-[30px] text-white ' />
+                    <p className='text-[24px] font-OS text-white'>Instant Delivery</p>
+
+                  </div>
+               
+                      
+                      <Switch/>
+                  </div>
+
+
+                  <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                  <HiLightningBolt className='w-[30px] h-[30px] text-white ' />
+                    <p className='text-[24px] font-OS text-white'>Manually Delivery</p>
+
+                  </div>
+               
+                      
+                      <Switch/>
+                  </div>
+                      
+                </div>
+
 
               </div>
             </div>
@@ -82,10 +119,13 @@ const Shop = () => {
               <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Sort by</p>
-                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                  {
+                    sort? <MdKeyboardArrowDown onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                  }
                 </div>
 
-                <div className="down mt-[27px] flex flex-col gap-5">
+                <div className={`down  flex flex-col gap-5 ${sort? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='recent'
@@ -145,10 +185,13 @@ const Shop = () => {
               <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Price</p>
-                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                  {
+                    price? <MdKeyboardArrowDown onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                  }
                 </div>
 
-                <div className="down mt-[27px] flex flex-col gap-5">
+                <div className={`down  flex flex-col gap-5 ${price? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='10'
@@ -205,11 +248,14 @@ const Shop = () => {
             <div className="seller bg-gradient-to-b from-[#FC00FF] from-1% via-[#7E6EEF] via-47% to-[#00DBDE] to-100%  p-[2px] rounded-[30px]">
               <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
                 <div className='up flex items-center justify-between'>
-                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Price</p>
-                  <MdKeyboardArrowDown className='w-10 h-10 text-[#FB01FF] ' />
+                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Seller</p>
+                  {
+                    seller? <MdKeyboardArrowDown onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                  }
                 </div>
 
-                <div className="down mt-[27px] flex flex-col gap-5">
+                <div className={`down  flex flex-col gap-5 ${seller? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='one'
@@ -251,11 +297,89 @@ const Shop = () => {
                  labelText='Seller Name'
                  />
 
+              <CheckBox
+                 id='price'
+                 htmlFor='price'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+
+                <CheckBox
+                 id='price'
+                 htmlFor='price'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+
+                <CheckBox
+                 id='price'
+                 htmlFor='price'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
 
 
 
 
                 </div>
+
+
+
+                <div className={`down  flex flex-col gap-5 ${show? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+
+                 <CheckBox
+                 id='one'
+                 htmlFor='one'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+                  
+                  
+                <CheckBox
+                 id='25'
+                 htmlFor='25'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+                <CheckBox
+                 id='50'
+                 htmlFor='50'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+
+
+                <CheckBox
+                 id='100'
+                 htmlFor='100'
+                 name='seller'
+                 labelText='Seller Name'
+                 />
+
+
+
+           
+
+
+
+
+
+                </div>
+
+
+
+
+                {
+                  show? <div className='cursor-pointer mt-4'>
+                  <p onClick={()=> setShow(!show)}  className='text-[24px] font-OS font-semibold text-[#FB01FF] underline'>- See Less</p>
+                </div>:<div className='cursor-pointer mt-4'>
+                  <p onClick={()=> setShow(!show)}  className='text-[24px] font-OS font-semibold text-[#FB01FF] underline'>+ See All</p>
+                </div>}
 
 
               </div>
