@@ -39,7 +39,7 @@ const Shop = () => {
                 <FaFilter className='w-[13px] h-3' />Filter By
                     </button>
             </div>
-            <div className={`left w-[327px]  flex md:hidden flex-col gap-10  ${filter?"visible h-auto opacity-100":"invisible h-0 opacity-0"}`} >
+            <div className={`left w-[327px] mt-5  flex md:hidden flex-col gap-5  ${filter?"visible h-auto opacity-100":"invisible h-0 opacity-0"}`} >
 
 
           <div className="deliver bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[20px]">
@@ -47,8 +47,8 @@ const Shop = () => {
                 <div className='up flex items-center justify-between'>
                   <p className='text-[18px] font-OS font-semibold text-[#FB01FF]'>Delivery</p>
                   {
-                    delivery? <MdKeyboardArrowDown onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    delivery? <MdKeyboardArrowDown onClick={()=> setDelivery(!delivery)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setDelivery(!delivery)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
@@ -59,7 +59,7 @@ const Shop = () => {
                   <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                   <HiLightningBolt className='w-[30px] h-[30px] text-white ' />
-                    <p className='text-[24px] font-OS text-white'>Instant Delivery</p>
+                    <p className='text-[18px] font-OS text-white'>Instant Delivery</p>
 
                   </div>
                
@@ -71,7 +71,7 @@ const Shop = () => {
                   <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                   <HiLightningBolt className='w-[30px] h-[30px] text-white ' />
-                    <p className='text-[24px] font-OS text-white'>Manually Delivery</p>
+                    <p className='text-[18px] font-OS text-white'>Manually Delivery</p>
 
                   </div>
                
@@ -85,17 +85,17 @@ const Shop = () => {
               </div>
             </div>
            
-            <div className="sort-by bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[30px]">
-              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
+            <div className="sort-by bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[20px]">
+              <div className='bg-[#15181D] rounded-[20px] px-3 py-2'>
                 <div className='up flex items-center justify-between'>
-                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Sort by</p>
+                  <p className='text-[18px] font-OS font-semibold text-[#FB01FF]'>Sort by</p>
                   {
-                    sort? <MdKeyboardArrowDown onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    sort? <MdKeyboardArrowDown onClick={()=> setSort(!sort)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setSort(!sort)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
-                <div className={`down  flex flex-col gap-5 ${sort? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+                <div className={`down  flex flex-col gap-3 ${sort? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='recent'
@@ -151,17 +151,17 @@ const Shop = () => {
 
 
 
-            <div className="price bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[30px]">
-              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
+            <div className="price bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[20px]">
+              <div className='bg-[#15181D] rounded-[20px] px-3 py-2'>
                 <div className='up flex items-center justify-between'>
-                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Price</p>
+                  <p className='text-[18px] font-OS font-semibold text-[#FB01FF]'>Price</p>
                   {
-                    price? <MdKeyboardArrowDown onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    price? <MdKeyboardArrowDown onClick={()=> setPrice(!price)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setPrice(!price)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
-                <div className={`down  flex flex-col gap-5 ${price? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+                <div className={`down  flex flex-col gap-3 ${price? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='10'
@@ -220,17 +220,17 @@ const Shop = () => {
 
 
 
-            <div className="seller bg-gradient-to-b from-[#FC00FF] from-1% via-[#7E6EEF] via-47% to-[#00DBDE] to-100%  p-[2px] rounded-[30px]">
-              <div className='bg-[#15181D] rounded-[30px] px-7 py-6'>
+            <div className="seller bg-gradient-to-b from-[#FC00FF] from-1% via-[#7E6EEF] via-47% to-[#00DBDE] to-100%  p-[2px] rounded-[20px]">
+              <div className='bg-[#15181D] rounded-[20px] px-3 py-2'>
                 <div className='up flex items-center justify-between'>
-                  <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Seller</p>
+                  <p className='text-[18px] font-OS font-semibold text-[#FB01FF]'>Seller</p>
                   {
-                    seller? <MdKeyboardArrowDown onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    seller? <MdKeyboardArrowDown onClick={()=> setSeller(!seller)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowUp  onClick={()=> setSeller(!seller)} className={`w-8 h-8 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
-                <div className={`down  flex flex-col gap-5 ${seller? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
+                <div className={`down  flex flex-col gap-3 ${seller? "visible opacity-100 h-auto mt-[27px] overflow-auto": "invisible opacity-0 h-0 mt-0 overflow-hidden"}`}>
 
                  <CheckBox
                  id='one'
@@ -298,7 +298,7 @@ const Shop = () => {
 
 
 
-<div className={`down  flex flex-col gap-5 ${show? "visible opacity-100 h-auto overflow-auto": "invisible opacity-0 h-0  overflow-hidden"}`}>
+<div className={`down  flex flex-col gap-3 ${show? "visible opacity-100 h-auto overflow-auto": "invisible opacity-0 h-0  overflow-hidden"}`}>
 
                  <CheckBox
                  id='one'
@@ -345,10 +345,10 @@ const Shop = () => {
 
 
                 {
-                  show? <div className='cursor-pointer mt-4'>
-                  <p onClick={()=> setShow(!show)}  className='text-[24px] font-OS font-semibold text-[#FB01FF] underline'>- See Less</p>
-                </div>:<div className='cursor-pointer mt-4'>
-                  <p onClick={()=> setShow(!show)}  className='text-[24px] font-OS font-semibold text-[#FB01FF] underline'>+ See All</p>
+                  show? <div className='cursor-pointer '>
+                  <p onClick={()=> setShow(!show)}  className='text-[18px] font-OS font-semibold text-[#FB01FF] underline'>- See Less</p>
+                </div>:<div className='cursor-pointer '>
+                  <p onClick={()=> setShow(!show)}  className='text-[18px] font-OS font-semibold text-[#FB01FF] underline'>+ See All</p>
                 </div>}
                 </div>
 
