@@ -24,7 +24,7 @@ import { IoStarSharp } from 'react-icons/io5'
 const Footer = () => {
   return (
    <div className='py-5'>
-     <div className=' max-w-[356px] md:max-w-[1862px] mx-auto   bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px]  '>
+     <div className=' max-w-[356px] md:max-w-[1862px] mx-auto bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px]  '>
        <div className='bg-[#1E2127] rounded-[25px]'>
        <Container className='pl-[27px] md:pl-0 pt-10 md:pt-[148px] pb-6'>
 
