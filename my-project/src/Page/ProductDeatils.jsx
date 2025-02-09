@@ -2,8 +2,11 @@ import React from 'react'
 import Container from '../Layer/Container'
 
 import productDetails from '/productDetails.png'
+import star from '/star.png'
+
 import { HiMiniInformationCircle } from 'react-icons/hi2'
 import { BiSolidError } from 'react-icons/bi'
+import { IoShareSocialSharp } from 'react-icons/io5'
 
 const ProductDeatils = () => {
   return (
@@ -31,6 +34,25 @@ const ProductDeatils = () => {
         <p className='font-OS text-white text-[23px] ml-2.5'>Can not be activated in Sweden</p>
 
         </div>
+
+
+        <div className='flex items-center mt-[34px] '>
+          <div className="icon w-[200px] rounded-full bg-[#15181D] flex items-center justify-center gap-1 py-[12.5px]">
+            <img className='w-[29.4px] h-7' src={star} alt="" />
+            <img className='w-[29.4px] h-7' src={star} alt="" />
+            <img className='w-[29.4px] h-7' src={star} alt="" />
+            <img className='w-[29.4px] h-7' src={star} alt="" />
+            <img className='w-[29.4px] h-7' src={star} alt="" />
+          </div>
+          <div className="review ml-[19px] mr-[233px]">
+            <p className='font-Inter text-[23px] text-[#787A7D]'>5.0 (457 Reviews)</p>
+          </div>
+          <div className="icon w-[54px] h-[54px] rounded-full bg-[#15181D] flex items-center justify-center ">
+          <IoShareSocialSharp className='w-[27.66px] h-[29.09px] text-white' />
+          </div>
+        </div>
+
+        <h1 className='font-OS text-[58px] text-white mt-[5px]'>The Last Of Us Part II</h1>
 
 
 
