@@ -41,7 +41,7 @@ const Shop = () => {
             </div>
           
           
-          <div className={`filter absolute z-30 bg-white/20 h-full rounded-[20px] w-[327px] mt-5  flex md:hidden flex-col gap-5  ${filter?"visible h-auto opacity-100":"invisible h-0 opacity-0"}`} >
+          <div className={`filter absolute z-30 bg-white/20 h-auto rounded-[20px] w-[327px] mt-3  flex md:hidden flex-col gap-5  ${filter?"visible h-auto opacity-100":"invisible h-0 opacity-0"}`} >
 
 
           <div className="deliver bg-gradient-to-b from-[#FC00FF] from-0% to-[#7E6EEF] to-100%  p-[2px] rounded-[20px]">
