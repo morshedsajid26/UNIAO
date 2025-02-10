@@ -9,6 +9,7 @@ import { HiMiniInformationCircle } from 'react-icons/hi2'
 import { BiSolidError } from 'react-icons/bi'
 import { IoShareSocialSharp } from 'react-icons/io5'
 import { HiLightningBolt } from 'react-icons/hi'
+import { MdAddShoppingCart } from 'react-icons/md'
 
 const ProductDeatils = () => {
   return (
@@ -140,6 +141,32 @@ const ProductDeatils = () => {
         </div>
 
         <p className='font-Inter text-[24px] text-white flex justify-center mt-[18px] pb-[29px] border-b border-white/20'>6 More Offers Available Starting From $55.99</p>
+
+        <div className='flex items-center gap-[18px] mt-[31px] border-b border-white/20 pb-10'>
+
+        <div className='flex items-center gap-[2px] md:gap-2.5'>
+                <p className='flex flex-col font-OS text-[#78797D] text-[10px] md:text-[20px]'>From 
+                    <del>$70 to</del>
+                </p>
+
+                <p className='text-[14px] md:text-[32px] text-[#E614FC] font-OS'>$59,99</p>
+                </div>
+
+          <button className='bg-gradient-to-br from-[#FF0000] from-1% via-[#FF6300] via-50% to-[#FFC700] to-100% font-OS text-[24px] py-3 px-[22px] rounded-[10px]'>Grab 15% OFF</button> 
+
+           <button className='flex  items-center gap-2 md:py-3 md:px-[22px] py-[5px] px-2 bg-gradient-to-br from-[#00DBDE] from-1% via-50% via-[#7E6EEF] to-[#FC00FF] to-100% rounded-[10px]  cursor-pointer font-OS md:text-[24px] text-[14px] text-white'>
+                         <MdAddShoppingCart className='md:w-[33px] md:h-[29px] w-[17px] h-[15px] text-white ' />
+                         Buy Now
+           </button>
+
+              
+
+        </div>
+
+        <div className='flex items-center justify-center gap-4 mt-6'>
+        <HiMiniInformationCircle className='w-[30.22px] h-[30.22px] text-white ' />
+        <p className='font-OS text-[22px] text-white'>How to activate</p>
+        </div>
 
 
 

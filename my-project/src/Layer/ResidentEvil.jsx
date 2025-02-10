@@ -42,9 +42,9 @@ const ResidentEvil = () => {
             </p>
             <p className='text-[21px] md:text-[28px] text-[#E614FC] ml-[6px]'>$59,99 </p>
            </div>
-               <button className='flex  items-center gap-2 md:p-4 py-[5px] px-2 bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% rounded-xl mt-2 md:mt-[26px] cursor-pointer'>
+               <button className='flex  items-center gap-2 md:p-4 py-[5px] px-2 bg-gradient-to-r from-[#00DBDE] from-1% to-[#FC00FF] to-100% rounded-xl mt-2 md:mt-[26px] cursor-pointer font-OS md:text-[24px] text-[14px] text-white'>
                <MdAddShoppingCart className='md:w-[33px] md:h-[29px] w-[17px] h-[15px] text-white ' />
-               <p className='font-OS md:text-[24px] text-[14px] text-white'>Buy Now</p>
+               Buy Now
                </button>
              </div>
             
