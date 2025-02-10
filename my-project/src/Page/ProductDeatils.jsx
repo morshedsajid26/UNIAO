@@ -3,6 +3,7 @@ import Container from '../Layer/Container'
 
 import productDetails from '/productDetails.png'
 import star from '/star.png'
+import cart from '/cart.png'
 
 import { HiMiniInformationCircle } from 'react-icons/hi2'
 import { BiSolidError } from 'react-icons/bi'
@@ -125,6 +126,20 @@ const ProductDeatils = () => {
           Ask Question
           </button>
         </div>
+
+        <div className='w-full bg-white rounded-[10px] py-[15px] pl-[23px] flex items-center mt-[25px]'>
+          <img src={cart} alt="" />
+          <p className='text-[24px] text-black font-Inter ml-3' >Sold By 
+            <span className='text-[#E614FC]'>BigBoyGames</span>
+            </p>
+
+            <div className='w-[2px] h-[29px] bg-black mx-5'></div>
+
+            <p className='text-[24px] text-black font-Inter'>100% of 281 ratings 
+              <span className='font-bold'> superb!</span></p>
+        </div>
+
+        <p className='font-Inter text-[24px] text-white flex justify-center mt-[18px] pb-[29px] border-b border-white/20'>6 More Offers Available Starting From $55.99</p>
 
 
 
