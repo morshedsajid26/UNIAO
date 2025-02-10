@@ -7,6 +7,7 @@ import star from '/star.png'
 import { HiMiniInformationCircle } from 'react-icons/hi2'
 import { BiSolidError } from 'react-icons/bi'
 import { IoShareSocialSharp } from 'react-icons/io5'
+import { HiLightningBolt } from 'react-icons/hi'
 
 const ProductDeatils = () => {
   return (
@@ -53,6 +54,77 @@ const ProductDeatils = () => {
         </div>
 
         <h1 className='font-OS text-[58px] text-white mt-[5px]'>The Last Of Us Part II</h1>
+
+        <div className="button flex flex-col gap-[18px] mt-[25px] border-b pb-[50px] border-white/20">
+          <div className="one flex gap-[14px]">
+            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            PS5
+            </button>
+
+            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            PS4
+            </button>
+
+            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            PS3
+            </button>
+          </div>
+
+          <div className="two flex gap-[14px]">
+            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            Key
+            </button>
+
+            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            Account
+            </button>
+
+          </div>
+
+
+          <div className="three flex gap-[14px]">
+            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+           UK
+            </button>
+
+            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            EU
+            </button>
+
+          </div>
+
+
+          <div className="four flex gap-[14px]">
+            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            Deluxe
+            </button>
+
+            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            Complete
+            </button>
+
+            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            Ultimate
+            </button>
+          </div>
+
+        </div>
+
+        <div className="button flex gap-5 mt-[42px]">
+          <button className='text-[#2BB6E4] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#2BB6E4] font-OS'>
+          Save 25%
+          </button>
+
+          <button className='text-[#E614FC] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#E614FC] font-OS flex items-center gap-2'>
+            <HiLightningBolt className='w-[20.73px] h-[29.61px]'/>
+          Instant Delivery
+          </button>
+
+
+          <button className='text-white text-[24px] py-[13px] px-[18px] border rounded-[10px]  font-OS'>
+          Ask Question
+          </button>
+        </div>
 
 
 
