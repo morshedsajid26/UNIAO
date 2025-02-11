@@ -35,6 +35,60 @@ const Description = () => {
                 and Joel settle in Jackson, Wyoming. Life in a thriving community of </p>
 
                 <p className='font-Inter text-[24px] text-[#E614FC] underline pb-10 border-b border-white/20'>Read more</p>
+
+                <div className="flex gap-4 flex-col mt-[41px]">
+
+                <div className='flex items-center gap-[14px]'>
+                    <p className='font-OS text-[24px] text-white'>
+                    Release Date:
+                    </p>
+
+                    <div>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>2018-07-30</button>
+                    </div>
+                </div>
+
+                <div className='flex items-center gap-[90px]'>
+                    <p className='font-OS text-[24px] text-white'>
+                    Genre:
+                    </p>
+
+                    <div className='flex gap-[14px]'>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>Survivor</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>Horror</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>Adventure</button>
+                        
+                    </div>
+                </div>
+
+
+                <div className='flex items-center gap-[51px]'>
+                    <p className='font-OS text-[24px] text-white'>
+                    Language:
+                    </p>
+
+                    <div className='flex gap-[14px]'>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>English</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>Spanish</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>Russian</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>Japanese</button>
+                    </div>
+                </div>
+
+
+                <div className='flex items-center gap-[30px]'>
+                    <p className='font-OS text-[24px] text-white'>
+                    Playable on:
+                    </p>
+
+                    <div className='flex gap-[14px]'>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>PS5</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>PS4</button>
+                        <button className='py-[13px] px-[19px] bg-[#1E2127] rounded-[10px] font-OS text-[24px] text-white'>PS3</button>
+                    </div>
+                </div>
+
+                </div>
             </div>
 
 
