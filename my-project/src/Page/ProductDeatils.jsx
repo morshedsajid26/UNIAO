@@ -10,6 +10,7 @@ import { BiSolidError } from 'react-icons/bi'
 import { IoShareSocialSharp } from 'react-icons/io5'
 import { HiLightningBolt } from 'react-icons/hi'
 import { MdAddShoppingCart } from 'react-icons/md'
+import Description from '../Layer/Description'
 
 const ProductDeatils = () => {
   return (
@@ -20,7 +21,7 @@ const ProductDeatils = () => {
           <img src={productDetails} alt="" />
         </div>
 
-        <div className='border border-white/20 rounded-[10px] mt-[30px] flex items-center pl-4 py-3'>
+        <div className='border border-white/20 rounded-[10px] mt-[90px] flex items-center pl-4 py-3'>
         <HiMiniInformationCircle className='w-[30px] h-[30px] text-white ' />
           <p className='font-OS text-white text-[22px]   ml-4'>This is a Playstation Account Access (This is not code/key) 
             <span className='underline'>  Learn More</span></p>
@@ -176,6 +177,8 @@ const ProductDeatils = () => {
 
 
       </Container>
+
+      <Description/>
     </div>
   )
 }
