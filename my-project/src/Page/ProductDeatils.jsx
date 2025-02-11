@@ -11,6 +11,7 @@ import { IoShareSocialSharp } from 'react-icons/io5'
 import { HiLightningBolt } from 'react-icons/hi'
 import { MdAddShoppingCart } from 'react-icons/md'
 import Description from '../Layer/Description'
+import YouMayLike from '../Layer/YouMayLike'
 
 const ProductDeatils = () => {
   return (
@@ -179,6 +180,7 @@ const ProductDeatils = () => {
       </Container>
 
       <Description/>
+      <YouMayLike/>
     </div>
   )
 }
