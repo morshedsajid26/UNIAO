@@ -12,6 +12,7 @@ import { HiLightningBolt } from 'react-icons/hi'
 import { MdAddShoppingCart } from 'react-icons/md'
 import Description from '../Layer/Description'
 import YouMayLike from '../Layer/YouMayLike'
+import ProductReview from '../Layer/ProductReview'
 
 const ProductDeatils = () => {
   return (
@@ -180,6 +181,7 @@ const ProductDeatils = () => {
       </Container>
 
       <Description/>
+      <ProductReview/>
       <YouMayLike/>
     </div>
   )
