@@ -13,6 +13,7 @@ import { MdAddShoppingCart } from 'react-icons/md'
 import Description from '../Layer/Description'
 import YouMayLike from '../Layer/YouMayLike'
 import ProductReview from '../Layer/ProductReview'
+import GameMedia from '../Layer/GameMedia'
 
 const ProductDeatils = () => {
   return (
@@ -181,6 +182,7 @@ const ProductDeatils = () => {
       </Container>
 
       <Description/>
+      <GameMedia/>
       <ProductReview/>
       <YouMayLike/>
     </div>

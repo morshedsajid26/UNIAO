@@ -10,7 +10,7 @@ const YouMayLike = () => {
   return (
     <div>
         <Container>
-        <div className='flex items-center justify-center gap-[43px] mb-[35px]'>
+        <div className='flex items-center justify-between mb-[35px]'>
                 <h1 className='text-[14px] md:text-[36px] font-OS text-white'>You May Also Like</h1>
                 <div className='h-[1px] md:h-[2px] w-[40px] md:w-[1112px] bg-custom-gradient'
                 ></div>
