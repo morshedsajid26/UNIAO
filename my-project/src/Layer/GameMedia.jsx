@@ -18,6 +18,16 @@ const GameMedia = () => {
                         Browse All
                     </button>
             </div>
+
+
+        <div className='w-full grid grid-rows-1 grid-cols-4 justify-between'>
+            <div className="child w-[394px] ">1</div>
+            <div className="child w-[394px] ">2</div>
+            <div className="child w-[394px] ">3</div>
+         <div className="child w-[394px] ">4</div>
+
+
+        </div>
         </Container>
     </div>
   )
