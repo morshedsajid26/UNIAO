@@ -5,6 +5,7 @@ import GameMedia1 from '/GameMedia1.png'
 import GameMedia2 from '/GameMedia2.png'
 import GameMedia3 from '/GameMedia3.png'
 import GameMedia4 from '/GameMedia4.png'
+import video from '/video.png'
 
 const GameMedia = () => {
   return (
@@ -24,8 +25,11 @@ const GameMedia = () => {
 
 
         <div className='w-full grid grid-rows-1 grid-cols-4 gap-[29px]'>
-            <div className="child w-[394px] ">
+            <div className="child w-[394px] relative ">
               <img src={GameMedia1} alt="" />
+              <div className='absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2  opacity-0 hover:opacity-100'>
+                <img src={video} alt="" />
+              </div>
             </div>
             <div className="child w-[394px] ">
             <img src={GameMedia2} alt="" />
