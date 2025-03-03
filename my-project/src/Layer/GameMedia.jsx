@@ -27,18 +27,27 @@ const GameMedia = () => {
         <div className='w-full grid grid-rows-1 grid-cols-4 gap-[29px]'>
             <div className="child w-[394px] relative ">
               <img src={GameMedia1} alt="" />
-              <div className='absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2  opacity-0 hover:opacity-100'>
+              <div className='absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2  opacity-0 hover:opacity-100 transition-all duration-300 '>
                 <img src={video} alt="" />
               </div>
             </div>
-            <div className="child w-[394px] ">
+            <div className="child w-[394px] relative ">
             <img src={GameMedia2} alt="" />
+            <div className='absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2  opacity-0 hover:opacity-100 transition-all duration-300 '>
+                <img src={video} alt="" />
+              </div>
             </div>
-            <div className="child w-[394px] ">
+            <div className="child w-[394px] relative ">
             <img src={GameMedia3} alt="" />
+            <div className='absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2  opacity-0 hover:opacity-100 transition-all duration-300 '>
+                <img src={video} alt="" />
+              </div>
             </div>
-         <div className="child w-[394px] ">
+         <div className="child w-[394px] relative">
          <img src={GameMedia4} alt="" />
+         <div className='absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2  opacity-0 hover:opacity-100 transition-all duration-300 '>
+                <img src={video} alt="" />
+              </div>
          </div>
 
 
