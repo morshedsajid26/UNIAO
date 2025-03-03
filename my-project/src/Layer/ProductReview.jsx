@@ -30,6 +30,7 @@ const ProductReview = () => {
                 image={review3}
                 review='Lorem Ipsum is simply dummy text of the 
                 printing and typesetting industry.'
+                star={4}
 
 
                 />
