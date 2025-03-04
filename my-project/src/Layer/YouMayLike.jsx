@@ -8,7 +8,7 @@ import card4 from '/card4.png'
 import GameCard from '../Component/GameCard'
 const YouMayLike = () => {
   return (
-    <div>
+    <div className='pt-[192px]'>
         <Container>
         <div className='flex items-center justify-between mb-[35px]'>
                 <h1 className='text-[14px] md:text-[36px] font-OS text-white'>You May Also Like</h1>
