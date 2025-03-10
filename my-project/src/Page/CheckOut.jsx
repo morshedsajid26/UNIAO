@@ -1,8 +1,13 @@
 import React from 'react'
+import Container from '../Layer/Container'
 
 const CheckOut = () => {
   return (
-    <div>CheckOut</div>
+    <div>
+        <Container>
+            
+        </Container>
+    </div>
   )
 }
 
