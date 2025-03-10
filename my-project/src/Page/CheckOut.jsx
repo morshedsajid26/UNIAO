@@ -5,7 +5,7 @@ const CheckOut = () => {
   return (
     <div>
         <Container>
-        <div className='flex items-center justify-between mb-[35px]'>
+        <div className='flex items-center justify-between mb-[35px] mt-[50px]'>
                 <h1 className='text-[14px] md:text-[36px] font-OS text-white'>Checkout</h1>
                 <div className='h-[1px] md:h-[2px] w-[40px] md:w-[1112px] bg-custom-gradient'
                 ></div>
