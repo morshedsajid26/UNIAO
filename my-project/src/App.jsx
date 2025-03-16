@@ -12,6 +12,8 @@ import Shop from './Page/Shop';
 import ProductDeatils from './Page/ProductDeatils';
 import Cart from './Page/Cart';
 import CheckOut from './Page/CheckOut';
+import Blog from './Page/Blog';
+import ArticleOpen from './Page/ArticleOpen';
 
 
 const router = createBrowserRouter(
@@ -22,6 +24,8 @@ const router = createBrowserRouter(
       <Route path='/product/details/' element={<ProductDeatils/>}/>
       <Route path='/cart/' element={<Cart/>} />
       <Route path='/checkout/' element={<CheckOut/>} />
+      <Route path='/blog/' element={<Blog/>}/>
+      <Route path='/article/open/' element={<ArticleOpen/>}/>
    
 
 
