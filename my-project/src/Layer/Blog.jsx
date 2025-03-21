@@ -5,6 +5,7 @@ import blog1 from '/blog1.png'
 import blog2 from '/blog2.png'
 import { PiClockCountdownFill } from 'react-icons/pi'
 import { IoMdEye } from 'react-icons/io'
+import Slider from 'react-slick'
 
 
 let BlogCard =({src})=> {
@@ -45,7 +46,28 @@ let BlogCard =({src})=> {
 }
 
 
+
+
+
 const Blog = () => {
+
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />,
+    // responsive: [
+    //   { breakpoint: 1280, settings: { slidesToShow: 3 } }, // Laptops
+    //   { breakpoint: 1024, settings: { slidesToShow: 2 } }, // Tablets
+    //   { breakpoint: 640, settings: { slidesToShow: 1 } }   // Mobile Phones
+    // ]
+  };
+
+
+
   return (
     <div className='pt-[168px]'>
         <Container>
@@ -65,14 +87,23 @@ const Blog = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row md:justify-between mt-[42px] gap-[17px] md:gap-0'>
+            {/* <div className='flex flex-col md:flex-row md:justify-between mt-[42px] gap-[17px] md:gap-0'> */}
+            <Slider {...settings}>
               <BlogCard
               src={blog1}/>
             
 
             <BlogCard
               src={blog2}/>
-            </div>
+
+
+            <BlogCard
+              src={blog1}/>
+            
+
+            <BlogCard
+              src={blog2}/>
+           </Slider>
 
         </Container>
     </div>
