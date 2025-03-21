@@ -54,10 +54,10 @@ const ComingSoon = () => {
         const { onClick } = props;
         return (
           <div
-            className=''
+            className='w-[52px] h-[52px] border-2 rounded-full flex items-center justify-center '
             onClick={onClick}
           >
-            <FaLongArrowAltRight className='' />
+            <FaLongArrowAltRight className= 'text-white   ' />
           </div>
         );
       }
@@ -66,10 +66,10 @@ const ComingSoon = () => {
         const { onClick } = props;
         return (
           <div
-            className=''
+            className='w-[52px] h-[52px] border rounded-full flex items-center justify-center '
             onClick={onClick}
           >
-            <FaLongArrowAltLeft className='' />
+            <FaLongArrowAltLeft className=' text-white'    />
           </div>
         );
       }
@@ -85,11 +85,11 @@ const ComingSoon = () => {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        responsive: [
-          { breakpoint: 1280, settings: { slidesToShow: 3 } }, // Laptops
-          { breakpoint: 1024, settings: { slidesToShow: 2 } }, // Tablets
-          { breakpoint: 640, settings: { slidesToShow: 1 } }   // Mobile Phones
-        ]
+        // responsive: [
+        //   { breakpoint: 1280, settings: { slidesToShow: 3 } }, // Laptops
+        //   { breakpoint: 1024, settings: { slidesToShow: 2 } }, // Tablets
+        //   { breakpoint: 640, settings: { slidesToShow: 1 } }   // Mobile Phones
+        // ]
       };
   return (
     <div className='pt-[185px]'>
