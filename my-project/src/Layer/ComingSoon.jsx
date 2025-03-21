@@ -50,47 +50,47 @@ let ComingGame = ({src}) => {
 
 const ComingSoon = () => {
 
-    // function SampleNextArrow(props) {
-    //     const { onClick } = props;
-    //     return (
-    //       <div
-    //         className=''
-    //         onClick={onClick}
-    //       >
-    //         <FaLongArrowAltRight className='' />
-    //       </div>
-    //     );
-    //   }
+    function SampleNextArrow(props) {
+        const { onClick } = props;
+        return (
+          <div
+            className=''
+            onClick={onClick}
+          >
+            <FaLongArrowAltRight className='' />
+          </div>
+        );
+      }
     
-    //   function SamplePrevArrow(props) {
-    //     const { onClick } = props;
-    //     return (
-    //       <div
-    //         className=''
-    //         onClick={onClick}
-    //       >
-    //         <FaLongArrowAltLeft className='' />
-    //       </div>
-    //     );
-    //   }
+      function SamplePrevArrow(props) {
+        const { onClick } = props;
+        return (
+          <div
+            className=''
+            onClick={onClick}
+          >
+            <FaLongArrowAltLeft className='' />
+          </div>
+        );
+      }
 
 
 
 
-    // var settings = {
-    //     dots: false,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 4,
-    //     slidesToScroll: 1,
-    //     nextArrow: <SampleNextArrow />,
-    //     prevArrow: <SamplePrevArrow />,
-    //     responsive: [
-    //       { breakpoint: 1280, settings: { slidesToShow: 3 } }, // Laptops
-    //       { breakpoint: 1024, settings: { slidesToShow: 2 } }, // Tablets
-    //       { breakpoint: 640, settings: { slidesToShow: 1 } }   // Mobile Phones
-    //     ]
-    //   };
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+          { breakpoint: 1280, settings: { slidesToShow: 3 } }, // Laptops
+          { breakpoint: 1024, settings: { slidesToShow: 2 } }, // Tablets
+          { breakpoint: 640, settings: { slidesToShow: 1 } }   // Mobile Phones
+        ]
+      };
   return (
     <div className='pt-[185px]'>
     <Container>
@@ -108,8 +108,8 @@ const ComingSoon = () => {
                 </button>
         </div>
 
-        {/* <Slider {...settings}> */}
-        <div className=' grid grid-cols-2 md:grid-cols-4 !gap-[47px]'>
+        {/* <div className=' w-full grid grid-cols-2 md:grid-cols-4 !gap-[47px]'>                       */}
+        <Slider {...settings}>
             <ComingGame
             src={card1}/>
 
@@ -122,9 +122,9 @@ const ComingSoon = () => {
             src={card4}/>
 
            
-        </div>
 
-        {/* </Slider> */}
+        </Slider>
+        {/* </div> */}
     </Container>
 </div>
   )
