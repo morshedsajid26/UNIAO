@@ -54,7 +54,7 @@ const ComingSoon = () => {
         const { onClick } = props;
         return (
           <div
-            className='w-[52px] h-[52px] border-2 rounded-full flex items-center justify-center absolute top-1/2 right-0 '
+            className='w-[52px] h-[52px] border-2 rounded-full flex items-center justify-center absolute top-1/2 translate-x-1/2  -translate-y-10   -right-10 '
             onClick={onClick}
           >
             <FaLongArrowAltRight className= 'text-white   ' />
@@ -66,7 +66,7 @@ const ComingSoon = () => {
         const { onClick } = props;
         return (
           <div
-            className='w-[52px] h-[52px] border rounded-full flex items-center justify-center absolute top-1/2 left-0 z-30 '
+            className='w-[52px] h-[52px] border rounded-full flex items-center justify-center absolute top-1/2 -translate-x-1/2  -translate-y-10 -left-10 z-30 '
             onClick={onClick}
           >
             <FaLongArrowAltLeft className=' text-white'    />
@@ -108,7 +108,7 @@ const ComingSoon = () => {
                 </button>
         </div>
 
-        <div className=' relative'>                      
+        <div className='relative'>                      
         <Slider {...settings}>
             <ComingGame
             src={card1}/>
