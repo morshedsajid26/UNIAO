@@ -19,7 +19,7 @@ import icon3 from '/Li-3.png'
 
 let ComingGame = ({src}) => {
   return (
-    <div className='w-[157px] md:w-[393px] bg-gradient-to-t from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[20px] md:rounded-[25px]'>
+    <div className='w-[157px] md:w-[393px] bg-gradient-to-t from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[20px] md:rounded-[25px] '>
         <div className='bg-[#15181D] p-[6px] md:px-3 md:py-[14px] rounded-[20px] md:rounded-[25px]'>
             <div className="img ">
                 <img className='w-[146px] h-[114px] md:w-full md:h-full' src={src} alt="" />
@@ -54,7 +54,7 @@ const ComingSoon = () => {
         const { onClick } = props;
         return (
           <div
-            className='w-[52px] h-[52px] border-2 rounded-full flex items-center justify-center '
+            className='w-[52px] h-[52px] border-2 rounded-full flex items-center justify-center absolute top-1/2 right-0 '
             onClick={onClick}
           >
             <FaLongArrowAltRight className= 'text-white   ' />
@@ -66,7 +66,7 @@ const ComingSoon = () => {
         const { onClick } = props;
         return (
           <div
-            className='w-[52px] h-[52px] border rounded-full flex items-center justify-center '
+            className='w-[52px] h-[52px] border rounded-full flex items-center justify-center absolute top-1/2 left-0 z-30 '
             onClick={onClick}
           >
             <FaLongArrowAltLeft className=' text-white'    />
@@ -108,7 +108,7 @@ const ComingSoon = () => {
                 </button>
         </div>
 
-        {/* <div className=' w-full grid grid-cols-2 md:grid-cols-4 !gap-[47px]'>                       */}
+        <div className=' relative'>                      
         <Slider {...settings}>
             <ComingGame
             src={card1}/>
@@ -124,7 +124,7 @@ const ComingSoon = () => {
            
 
         </Slider>
-        {/* </div> */}
+        </div>
     </Container>
 </div>
   )
