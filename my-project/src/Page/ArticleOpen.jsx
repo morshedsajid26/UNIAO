@@ -5,7 +5,7 @@ const ArticleOpen = () => {
   return (
     <div>
       <Container>
-        article
+        
         </Container>
         </div>
   )
