@@ -3,9 +3,11 @@ import Container from '../Layer/Container'
 
 const ArticleOpen = () => {
   return (
-    <div><Container>
+    <div>
+      <Container>
         article
-        </Container></div>
+        </Container>
+        </div>
   )
 }
 
