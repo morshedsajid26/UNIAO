@@ -3,7 +3,8 @@ import Container from '../Layer/Container'
 
 const Blog = () => {
   return (
-    <div>
+   
+   <div className=''>
         <Container>
             
         </Container>
