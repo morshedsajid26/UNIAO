@@ -12,11 +12,11 @@ const Blog = () => {
                       <h3 className='text-white font-Inter text-4xl mr-[34px]'>Blog Articles</h3>
 
                       <div className='w-[756px] flex justify-between'>
-                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px]'>All</span>
-                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px]'>Gaming</span>
-                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px]'>Investment</span>
-                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px]'>Software</span>
-                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px]'>News</span>
+                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px] hover:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% cursor-pointer transition-all duration-300 '>All</span>
+                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px] hover:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% cursor-pointer transition-all duration-300'>Gaming</span>
+                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px] hover:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% cursor-pointer transition-all duration-300'>Investment</span>
+                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px] hover:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% cursor-pointer transition-all duration-300'>Software</span>
+                        <span className='py-3 px-[22px] border rounded-[10px] text-white font-OS text-[24px] hover:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% cursor-pointer transition-all duration-300'>News</span>
                       </div>
 
                       <div className="searchBar w-[350px] relative  ml-[320px]">
