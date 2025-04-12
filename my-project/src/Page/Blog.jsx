@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../Layer/Container'
 import { IoSearch } from 'react-icons/io5'
 
+import BlogBanner from '/BlogBanner.png'
+
 const Blog = () => {
   return (
    
@@ -25,6 +27,10 @@ const Blog = () => {
                                       <IoSearch className='w-[22.5px] h-[22.5px] text-[#B2B8C2] absolute top-1/2 -translate-y-1/2 right-4' />
                                       
                                   </div>
+              </div>
+
+              <div className="banner relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px]">
+                <img src={BlogBanner} alt="" />
               </div>
 
         </Container>
