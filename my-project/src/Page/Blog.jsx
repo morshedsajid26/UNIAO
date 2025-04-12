@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../Layer/Container'
 import { IoSearch } from 'react-icons/io5'
 
-import BlogBanner from '/BlogBanner.png'
+// import BlogBanner from '/BlogBanner.png'
 
 const Blog = () => {
   return (
@@ -29,8 +29,32 @@ const Blog = () => {
                                   </div>
               </div>
 
-              <div className="banner relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px]">
-                <img src={BlogBanner} alt="" />
+              <div className=' bg-[url("/public/BlogBanner.png")] bg-cover bg-center bg-no-repeat h-[730px] w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 '>
+
+              <div className='pl-[69px] pt-[242px]'>
+
+
+
+              <div className='flex gap-[11px]'>
+                <span className='py-1 px-2.5 bg-white font-OS text-[18px] rounded-[10px]'>Gaming</span>
+
+                <span className='py-1 px-2.5 bg-white font-OS text-[18px] rounded-[10px]'>Stray</span>
+              </div>
+
+              <h3 className='font-Inter text-white text-[68px] mt-[9px] mb-[22px]'>Top digital game releases</h3>
+
+              <div>
+                <p className='text-[24px] font-Inter text-[#E614FC]'>19 Sep, 23</p>
+
+                <p>
+                  
+                </p>
+              </div>
+
+
+              </div>
+              
+                
               </div>
 
         </Container>
