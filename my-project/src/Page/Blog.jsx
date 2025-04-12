@@ -2,6 +2,13 @@ import React from 'react'
 import Container from '../Layer/Container'
 import { IoSearch, IoTimerSharp } from 'react-icons/io5'
 
+
+import BlogBanner1 from '/BlogBanner1.png'
+import BlogBanner2 from '/BlogBanner2.png'
+import BlogBanner3 from '/BlogBanner3.png'
+import BlogBanner4 from '/BlogBanner4.png'
+import BlogBanner5 from '/BlogBanner5.png'
+
 // import BlogBanner from '/BlogBanner.png'
 
 const Blog = () => {
@@ -29,9 +36,9 @@ const Blog = () => {
                                   </div>
               </div>
 
-              <div className=' bg-[url("/public/BlogBanner.png")] bg-cover bg-center bg-no-repeat h-[730px] w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 '>
+              <div className=' bg-[url("/public/BlogBanner.png")] bg-cover bg-center bg-no-repeat w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 rounded-[25px]  '>
 
-              <div className='pl-[69px] pt-[242px]'>
+              <div className='pl-[69px] pt-[242.8px]'>
 
 
 
@@ -52,6 +59,15 @@ const Blog = () => {
                 3 min read
                 
                 </p>
+              </div>
+
+
+              <div className='hidden md:flex gap-[35px] items-end mt-[46px] pb-[79px]'>
+               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner1} alt="" />
+               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner2} alt="" />
+               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner3} alt="" />
+               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner4} alt="" />
+               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner5} alt="" />
               </div>
 
 
