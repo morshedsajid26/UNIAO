@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Layer/Container'
-import { IoSearch } from 'react-icons/io5'
+import { IoSearch, IoTimerSharp } from 'react-icons/io5'
 
 // import BlogBanner from '/BlogBanner.png'
 
@@ -43,11 +43,14 @@ const Blog = () => {
 
               <h3 className='font-Inter text-white text-[68px] mt-[9px] mb-[22px]'>Top digital game releases</h3>
 
-              <div>
+              <div className='flex items-center gap-[22.5px]'>
                 <p className='text-[24px] font-Inter text-[#E614FC]'>19 Sep, 23</p>
 
-                <p>
-                  
+                <p className='text-white font-OS text-[20px] flex items-center gap-[7px]'>
+                <IoTimerSharp className='text-white/40 h-[31px] w-[31px]' />
+               
+                3 min read
+                
                 </p>
               </div>
 
