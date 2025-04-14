@@ -373,8 +373,8 @@ const Shop = () => {
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Delivery</p>
                   {
-                    delivery? <MdKeyboardArrowDown onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    delivery? <MdKeyboardArrowUp onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowDown  onClick={()=> setDelivery(!delivery)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
@@ -462,8 +462,8 @@ const Shop = () => {
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Sort by</p>
                   {
-                    sort? <MdKeyboardArrowDown onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    sort? <MdKeyboardArrowUp onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowDown  onClick={()=> setSort(!sort)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
@@ -528,8 +528,8 @@ const Shop = () => {
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Price</p>
                   {
-                    price? <MdKeyboardArrowDown onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    price? <MdKeyboardArrowUp onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowDown  onClick={()=> setPrice(!price)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
@@ -597,8 +597,8 @@ const Shop = () => {
                 <div className='up flex items-center justify-between'>
                   <p className='text-[24px] font-OS font-semibold text-[#FB01FF]'>Seller</p>
                   {
-                    seller? <MdKeyboardArrowDown onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
-                    <MdKeyboardArrowUp  onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
+                    seller? <MdKeyboardArrowUp onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />: 
+                    <MdKeyboardArrowDown  onClick={()=> setSeller(!seller)} className={`w-10 h-10 text-[#FB01FF] cursor-pointer`} />
                   }
                 </div>
 
