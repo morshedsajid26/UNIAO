@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../Layer/Container'
 import { IoSearch, IoTimerSharp } from 'react-icons/io5'
 
+import PlayStationPlus from '/PlayStationPlus.png'
+
 const ArticleOpen = () => {
   return (
     <div className=''>
@@ -57,6 +59,49 @@ const ArticleOpen = () => {
               </div>
               
                 
+              </div>
+
+              <div className="flex justify-between mt-[71px]">
+
+              <div className="left w-[1042px] ">
+
+              <p className='font-Inter text-white text-[24px]'>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+              has been the industry's standard dummy text ever since the 1500s, when an unknown 
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+              not only five centuries, but also the leap into electronic typesetting, remaining essentially 
+              unchanged. It was popularised in the 1960s.
+              </p>
+
+              <div className='h-[1px] md:h-[2px] w-[40px] md:w-[1069px] bg-custom-gradient mt-[83px] mb-[65px]'
+                ></div>
+
+                <h3 className='font-pop text-white text-[48px] font-medium w-[752px]'>
+                Introducing Reader. A Stunning
+                Experience
+                </h3>
+
+                <p className='font-Inter text-white text-[24px] mt-[39px] mb-[74px]'>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                printer took a galley of type and scrambled it to make a type specimen book. It has 
+                not only five centuries, but also the leap.
+                </p>
+
+                <img src={PlayStationPlus} alt="" />
+
+                <p className='font-Inter text-white text-[24px] mt-[86px] mb-[70px]'>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+                has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                printer took a galley of type and scrambled it to make a type specimen book. It has 
+                not only five centuries, but also the leap.
+                </p>
+
+              </div>
+
+
+              <div className="right w-[526px] bg-[#1E2127]  h-[407px] rounded-[25px]">2</div>
+
               </div>
 
         </Container>
