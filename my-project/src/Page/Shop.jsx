@@ -734,7 +734,7 @@ const Shop = () => {
           </div>
          
          
-          <div className="right w-[327px] md:w-[1240px]">
+          <div className="right w-[327px] md:w-[1240px] mb-[127px]">
             <Paginate itemsPerPage={15}/>
           </div>
         </Container>
