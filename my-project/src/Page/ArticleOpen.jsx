@@ -100,7 +100,36 @@ const ArticleOpen = () => {
               </div>
 
 
-              <div className="right w-[526px] bg-[#1E2127]  h-[407px] rounded-[25px]">2</div>
+              <div className="right w-[526px] bg-[#1E2127]  h-[407px] pr-[57px] pl-[41px] pt-[36px] pb-[390px] rounded-[25px]">
+                
+                <h3 className='text-white text-[30px] font-Inter'>Browse by Tags</h3>
+
+                <div className="tag flex flex-col gap-[23px] mt-8">
+
+
+                <div className="div flex gap-[14px] ">
+                  <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>game</span>
+                  <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>STRAY</span>
+                  <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>GAMING NEWS</span>
+
+                </div>
+
+                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>WHICH CONSOLE IS BEST VALUE FOR MONEY?</span>
+
+                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>GET YOUR PC GAME KEYS NOW: LATEST</span>
+
+                <div className='flex gap-[14px]'>
+                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>IS SIFU FOR PC?</span>
+
+                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>DESTINY</span>
+                </div>
+
+
+
+                </div>
+
+                
+              </div>
 
               </div>
 
