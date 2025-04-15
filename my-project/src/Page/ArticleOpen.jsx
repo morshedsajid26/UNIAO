@@ -3,6 +3,31 @@ import Container from '../Layer/Container'
 import { IoSearch, IoTimerSharp } from 'react-icons/io5'
 
 import PlayStationPlus from '/PlayStationPlus.png'
+import recommended1 from '/recommended1.png'
+import recommended2 from '/recommended2.png'
+import recommended3 from '/recommended3.png'
+import recommended4 from '/recommended4.png'
+import recommended5 from '/recommended5.png'
+import recommended6 from '/recommended6.png'
+
+let RecommendedChild = ({src})=>{
+  return(
+    <div className="child flex items-center gap-[18px]">
+                    <div className="img ">
+                      <img src={src} alt="" />
+                    </div>
+                    <div className="text">
+                    <p className='text-[24px] font-pop text-[#E614FC]  w-[234px] '>Post title article title
+                    name article blog...</p>
+
+                    <p className='text-white/40 font-Inter text-[20px] flex items-center gap-[7px] mt-3'>
+                    <IoTimerSharp className=' h-[31px] w-[31px]'/>
+                    3 min read
+                    </p>
+                    </div>
+                  </div>
+  )
+}
 
 const ArticleOpen = () => {
   return (
@@ -96,6 +121,52 @@ const ArticleOpen = () => {
                 printer took a galley of type and scrambled it to make a type specimen book. It has 
                 not only five centuries, but also the leap.
                 </p>
+
+
+
+
+
+
+                <div className="recommended w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px]">
+                  <div className="bg-[#1E2127] rounded-[25px] p-[50px]">
+
+
+                <div className="up flex justify-between items-center">
+                  <h3 className='font-Inter text-[34px] text-white'>Recommended Articles</h3>
+                  <div className='h-[1px] md:h-[2px] w-[40px] md:w-[560px] bg-custom-gradient'
+                ></div>
+                </div>
+
+                <div className="down grid grid-rows-3 grid-cols-2 gap-y-[57px] mt-11">
+                  <RecommendedChild
+                  src={recommended1}
+                  />
+                  <RecommendedChild
+                  src={recommended2}
+                  />
+                  <RecommendedChild
+                  src={recommended3}
+                  />
+                  <RecommendedChild
+                  src={recommended4}
+                  />
+                  <RecommendedChild
+                  src={recommended5}
+                  />
+                  <RecommendedChild
+                  src={recommended6}
+                  />
+                  
+                </div>
+
+
+
+
+
+
+
+                  </div>
+                </div>
 
               </div>
 
