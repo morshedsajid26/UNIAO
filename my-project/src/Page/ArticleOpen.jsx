@@ -125,7 +125,9 @@ const ArticleOpen = () => {
 
 
               <div>
-                
+                <div className="child"></div>
+                <div className="child"></div>
+
               </div>
 
 
