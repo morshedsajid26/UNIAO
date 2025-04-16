@@ -124,7 +124,9 @@ const ArticleOpen = () => {
 
 
 
-
+              <div>
+                
+              </div>
 
 
                 <div className="recommended w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px]">
