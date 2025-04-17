@@ -174,6 +174,12 @@ const ArticleOpen = () => {
                   </div>
                 </div>
 
+
+
+                <div className="recommended w-[1057px] bg-[#1E2127] rounded-[25px]">d
+                  
+                </div>
+
               </div>
 
 
