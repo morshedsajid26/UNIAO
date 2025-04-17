@@ -124,8 +124,10 @@ const ArticleOpen = () => {
 
 
 
-              <div>
-                <div className="child"></div>
+              <div className=''>
+                <div className="child w-[357px] bg-[#1E2127] rounded-[25px]">
+                  <p className='font-Inter text-white text-[28px]'>Author:</p>
+                </div>
                 <div className="child"></div>
 
               </div>
