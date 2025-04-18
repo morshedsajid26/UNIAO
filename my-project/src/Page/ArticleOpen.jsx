@@ -184,14 +184,17 @@ const ArticleOpen = () => {
                 ></div>
                 </div>
 
-                <div className="down">
-                  <div className='flex justify-between'>
+                <div className="down mt-10">
+                  <div className='flex justify-between '>
                   <input className='bg-[#15181D] py-[15px] px-[21px] w-[468px] rounded-[10px] text-white/50 font-Inter text-[24px] outline-none' type="text" placeholder='Name:' />
                   <input className='bg-[#15181D] py-[15px] px-[21px] w-[468px] rounded-[10px] text-white/50 font-Inter text-[24px] outline-none' type="text" placeholder='Email:' />
                   </div>
 
 
-                  
+                  <input className='bg-[#15181D] pt-[15px] pb-[134px] px-[21px] w-full rounded-[10px] text-white/50 font-Inter text-[24px] outline-none mt-7' type='text' placeholder='Comment:' />
+
+
+                  <button className='px-[31px] py-[17px] text-[23px] text-white font-Inter bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% rounded-[10px] mt-7'>Publish</button>
                 </div>
                   
                 </div>
