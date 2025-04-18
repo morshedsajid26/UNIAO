@@ -176,7 +176,13 @@ const ArticleOpen = () => {
 
 
 
-                <div className="recommended w-[1057px] bg-[#1E2127] rounded-[25px]">d
+                <div className=" w-[1057px] bg-[#1E2127] rounded-[25px] mt-[121px] py-[45px] px-[50px] ">
+
+                <div className="up flex justify-between items-center ">
+                  <h3 className='font-Inter text-[34px] text-white'>Article Comments</h3>
+                  <div className='h-[1px] md:h-[2px] w-[40px] md:w-[560px] bg-custom-gradient'
+                ></div>
+                </div>
                   
                 </div>
 
