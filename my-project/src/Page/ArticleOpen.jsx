@@ -183,6 +183,16 @@ const ArticleOpen = () => {
                   <div className='h-[1px] md:h-[2px] w-[40px] md:w-[560px] bg-custom-gradient'
                 ></div>
                 </div>
+
+                <div className="down">
+                  <div className='flex justify-between'>
+                  <input className='bg-[#15181D] py-[15px] px-[21px] w-[468px] rounded-[10px] text-white/50 font-Inter text-[24px] outline-none' type="text" placeholder='Name:' />
+                  <input className='bg-[#15181D] py-[15px] px-[21px] w-[468px] rounded-[10px] text-white/50 font-Inter text-[24px] outline-none' type="text" placeholder='Email:' />
+                  </div>
+
+
+                  
+                </div>
                   
                 </div>
 
