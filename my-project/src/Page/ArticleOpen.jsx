@@ -9,6 +9,7 @@ import recommended3 from '/recommended3.png'
 import recommended4 from '/recommended4.png'
 import recommended5 from '/recommended5.png'
 import recommended6 from '/recommended6.png'
+import { FaCircleUser } from 'react-icons/fa6'
 
 let RecommendedChild = ({src})=>{
   return(
@@ -125,8 +126,14 @@ const ArticleOpen = () => {
 
 
               <div className=''>
-                <div className="child w-[357px] bg-[#1E2127] rounded-[25px]">
+                <div className="child w-[357px] bg-[#1E2127] rounded-[25px] py-[37px] px-[45px]">
                   <p className='font-Inter text-white text-[28px]'>Author:</p>
+
+                  <p className='flex items-center text-white text-[26px] font-Inter mt-5 gap-2.5'>
+                  <FaCircleUser className='w-[35px] h-[35px]' />
+                  Username
+                  </p>
+
                 </div>
                 <div className="child"></div>
 
@@ -176,7 +183,7 @@ const ArticleOpen = () => {
 
 
 
-                <div className=" w-[1057px] bg-[#1E2127] rounded-[25px] mt-[121px] py-[45px] px-[50px] ">
+                <div className="contact w-[1057px] bg-[#1E2127] rounded-[25px] mt-[121px] py-[45px] px-[50px] ">
 
                 <div className="up flex justify-between items-center ">
                   <h3 className='font-Inter text-[34px] text-white'>Article Comments</h3>
