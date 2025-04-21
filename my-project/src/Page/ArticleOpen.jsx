@@ -9,7 +9,7 @@ import recommended3 from '/recommended3.png'
 import recommended4 from '/recommended4.png'
 import recommended5 from '/recommended5.png'
 import recommended6 from '/recommended6.png'
-import { FaCircleUser } from 'react-icons/fa6'
+import { FaCircleUser, FaFacebookF, FaLinkedinIn, FaMessage, FaXTwitter } from 'react-icons/fa6'
 
 let RecommendedChild = ({src})=>{
   return(
@@ -125,7 +125,7 @@ const ArticleOpen = () => {
 
 
 
-              <div className=''>
+              <div className='flex justify-between'>
                 <div className="child w-[357px] bg-[#1E2127] rounded-[25px] py-[37px] px-[45px]">
                   <p className='font-Inter text-white text-[28px]'>Author:</p>
 
@@ -135,7 +135,17 @@ const ArticleOpen = () => {
                   </p>
 
                 </div>
-                <div className="child"></div>
+                <div className="child w-[649px] bg-[#1E2127] rounded-[25px] py-[37px] px-[45px]">
+                  <p className='font-Inter text-white text-[28px]'>Share This Article:</p>
+
+                  <ul className='flex  gap-[6px] md:gap-2 mt-[19px]'>
+                     <li className='w-[30px] h-[30px] md:w-[49px] md:h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center text-white '><FaXTwitter /></li>
+                     <li className='w-[30px] h-[30px] md:w-[49px] md:h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  text-white'><FaMessage /></li>
+                     <li className='w-[30px] h-[30px] md:w-[49px] md:h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  text-white'><FaFacebookF /></li>
+                     <li className='w-[30px] h-[30px] md:w-[49px] md:h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center  text-white'><FaLinkedinIn /></li>
+                   </ul>
+
+                </div>
 
               </div>
 
