@@ -18,6 +18,9 @@ const CheckOut = () => {
                 Continue Shopping
                     </button>
             </div>
+
+
+            <div></div>
         </Container>
     </div>
   )
