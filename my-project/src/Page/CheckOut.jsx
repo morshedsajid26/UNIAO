@@ -20,7 +20,7 @@ const CheckOut = () => {
             </div>
 
 
-            <div></div>
+           
         </Container>
     </div>
   )
