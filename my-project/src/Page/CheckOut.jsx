@@ -11,7 +11,6 @@ const CheckOut = () => {
                 ></div>
 
 
-
                 
 
                 <button className='border py-[7px] md:py-3 px-[10.5px] md:px-[18px] text-white font-OS text-[12px] md:text-[24px] rounded-[10px]'>

@@ -174,10 +174,8 @@ const ProductDeatils = () => {
 
 
 
-
         </div>
       </div>
-
 
       </Container>
 
