@@ -50,6 +50,7 @@ const ReviewSlider = ({ items }) => {
             name={review.name}
             star={review.star}
             review={review.reviewText}
+            reviewRes={review.reviewRes}
           />
         ))}
       </Slider>

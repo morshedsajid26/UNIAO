@@ -1,7 +1,7 @@
 import React from "react";
 import icon from "/star.png";
 
-const ReviewCard = ({ image, name, star, review, className , Class }) => {
+const ReviewCard = ({ image, name, star, review, className , Class,reviewRes }) => {
   return (
     <div
       className={`p-[1px] w-[204px] md:w-[526px]  md:mx-5 bg-gradient-to-b from-[#00DBDE] from-1% to-[#FC00FF] to-100%  rounded-lg ${Class} `}
@@ -35,8 +35,11 @@ const ReviewCard = ({ image, name, star, review, className , Class }) => {
         </div>
 
         <div className="reviewText">
-          <p className="font-OS  text-[12px] md:text-[22px] text-white">
+          <p className="font-OS md:block hidden  text-[12px] md:text-[22px] text-white">
             {review}
+          </p>
+          <p className="font-OS md:hidden block  text-[11px] text-white">
+            {reviewRes}
           </p>
         </div>
       </div>

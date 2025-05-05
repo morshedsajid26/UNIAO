@@ -22,6 +22,9 @@ const Review = () => {
       star: 5,
       reviewText:
         "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+      reviewRes:
+        "Lorem Ipsum is simply dummy text of the printing and type.",
+      
     },
     {
       name: "username",
@@ -29,6 +32,9 @@ const Review = () => {
       star: 5,
       reviewText:
         "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+      reviewRes:
+        "Lorem Ipsum is simply dummy text of the printing and type.",
+      
     },
     {
       name: "username",
@@ -36,6 +42,9 @@ const Review = () => {
       star: 5,
       reviewText:
         "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+      reviewRes:
+        "Lorem Ipsum is simply dummy text of the printing and type.",
+      
     },
     {
       name: "username",
@@ -43,6 +52,9 @@ const Review = () => {
       star: 5,
       reviewText:
         "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+      reviewRes:
+        "Lorem Ipsum is simply dummy text of the printing and type.",
+      
     },
     {
       name: "username",
@@ -50,6 +62,9 @@ const Review = () => {
       star: 5,
       reviewText:
         "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+      reviewRes:
+        "Lorem Ipsum is simply dummy text of the printing and type.",
+      
     },
     {
       name: "username",
@@ -57,6 +72,9 @@ const Review = () => {
       star: 5,
       reviewText:
         "Lorem Ipsum is simply dummy text of the  printing and typesetting industry..",
+      reviewRes:
+        "Lorem Ipsum is simply dummy text of the printing and type.",
+      
     },
   ];
   return (
