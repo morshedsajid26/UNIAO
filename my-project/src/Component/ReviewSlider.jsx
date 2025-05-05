@@ -12,7 +12,7 @@ const ReviewSlider = ({ items }) => {
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "linear",
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
       {
