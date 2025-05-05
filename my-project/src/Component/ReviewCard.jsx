@@ -4,7 +4,7 @@ import icon from "/star.png";
 const ReviewCard = ({ image, name, star, review, className , Class }) => {
   return (
     <div
-      className={`p-[1px] w-[526px]  md:mx-5 bg-gradient-to-b from-[#00DBDE] from-1% to-[#FC00FF] to-100%  rounded-lg ${Class} `}
+      className={`p-[1px] w-[204px] md:w-[526px]  md:mx-5 bg-gradient-to-b from-[#00DBDE] from-1% to-[#FC00FF] to-100%  rounded-lg ${Class} `}
     >
       <div className={`py-4 md:py-11 px-[1.125rem] md:px-12 bg-[#15181D] rounded-lg flex flex-col gap-y-1.5 md:gap-y-6 ${className}`}>
         <div className="detail flex items-center gap-x-3">
@@ -35,7 +35,7 @@ const ReviewCard = ({ image, name, star, review, className , Class }) => {
         </div>
 
         <div className="reviewText">
-          <p className="font-OS  md:text-[22px] text-white">
+          <p className="font-OS  text-[12px] md:text-[22px] text-white">
             {review}
           </p>
         </div>

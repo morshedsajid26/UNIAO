@@ -66,7 +66,7 @@ const Review = () => {
           <p className="flex flex-col justify-center items-center font-openSans font-bold text-white text-sm sm:text-2xl lg:text-4xl">
             Trustpilot <span>Reviews</span>
           </p>
-          <div className="line bg-custom-gradient w-[200px] h-[2px]">
+          <div className="line bg-white/5 md:bg-custom-gradient w-[74px] md:w-[200px] h-[1px] md:h-[2px] ">
             
           </div>
           <div className="star flex items-center gap-x-1 lg:gap-x-1.5 text-base lg:text-5xl font-bold text-[#38AAE6]">
