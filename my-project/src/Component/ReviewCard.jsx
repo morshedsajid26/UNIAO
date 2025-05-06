@@ -4,9 +4,9 @@ import icon from "/star.png";
 const ReviewCard = ({ image, name, star, review, className , Class,reviewRes }) => {
   return (
     <div
-      className={`p-[1px] w-[204px] md:w-[526px]  md:mx-5 bg-gradient-to-b from-[#00DBDE] from-1% to-[#FC00FF] to-100%  rounded-lg ${Class} `}
+      className={`p-[1px] w-[204px] md:w-[526px]  md:mx-5 bg-gradient-to-b from-[#00DBDE] from-1% to-[#FC00FF] to-100%  rounded-[15px] ${Class} `}
     >
-      <div className={`py-4 md:py-11 px-[1.125rem] md:px-12 bg-[#15181D] rounded-lg flex flex-col gap-y-1.5 md:gap-y-6 ${className}`}>
+      <div className={`py-4 md:py-11 px-[1.125rem] md:px-12 bg-[#15181D] rounded-[15px] flex flex-col gap-y-1.5 md:gap-y-6 ${className}`}>
         <div className="detail flex items-center gap-x-3">
           <div className="image border border-primary rounded-full">
             <img

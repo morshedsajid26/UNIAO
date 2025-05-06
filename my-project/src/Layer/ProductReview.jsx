@@ -4,8 +4,45 @@ import Container from './Container'
 import ReviewCard from '../Component/ReviewCard'
 
 import review3 from '/review3.png'
+import Slider from 'react-slick'
 
 const ProductReview = () => {
+
+  const settings = {
+    dots: false,
+    arrows:false,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      
+    ],
+  };
   return (
     <div>
         <Container>
@@ -23,7 +60,7 @@ const ProductReview = () => {
                     </button>
             </div>
 
-            <div className='flex'>
+            <Slider {...settings}>
                 <ReviewCard  
                 name='Sajid'
                 image={review3}
@@ -33,7 +70,7 @@ const ProductReview = () => {
                 />
 
 
-<ReviewCard  
+                <ReviewCard  
                 name='Sajid'
                 image={review3}
                 review='Lorem Ipsum is simply dummy text of the 
@@ -42,7 +79,7 @@ const ProductReview = () => {
                 />
 
 
-<ReviewCard  
+                <ReviewCard  
                 name='Sajid'
                 image={review3}
                 review='Lorem Ipsum is simply dummy text of the 
@@ -50,7 +87,15 @@ const ProductReview = () => {
                 star={5}
                 />
 
-            </div>
+                <ReviewCard  
+                name='Sajid'
+                image={review3}
+                review='Lorem Ipsum is simply dummy text of the 
+                printing and typesetting industry.'
+                star={3}
+                />
+
+</Slider>
         </Container>
     </div>
   )
