@@ -6,6 +6,7 @@ import blog2 from '/blog2.png'
 import { PiClockCountdownFill } from 'react-icons/pi'
 import { IoMdEye } from 'react-icons/io'
 import Slider from 'react-slick'
+import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa'
 
 
 let BlogCard =({src})=> {
@@ -45,7 +46,29 @@ let BlogCard =({src})=> {
   )
 }
 
-
+    function SampleNextArrow(props) {
+        const { onClick } = props;
+        return (
+          <div
+            className='w-[52px] h-[52px] border-2 rounded-full flex items-center justify-center absolute top-1/2 translate-x-1/2  -translate-y-10   -right-10 '
+            onClick={onClick}
+          >
+            <FaLongArrowAltRight className= 'text-white   ' />
+          </div>
+        );
+      }
+    
+      function SamplePrevArrow(props) {
+        const { onClick } = props;
+        return (
+          <div
+            className='w-[52px] h-[52px] border rounded-full flex items-center justify-center absolute top-1/2 -translate-x-1/2  -translate-y-10 -left-10 z-30 '
+            onClick={onClick}
+          >
+            <FaLongArrowAltLeft className=' text-white'    />
+          </div>
+        );
+      }
 
 
 
@@ -57,8 +80,8 @@ const Blog = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     // responsive: [
     //   { breakpoint: 1280, settings: { slidesToShow: 3 } }, // Laptops
     //   { breakpoint: 1024, settings: { slidesToShow: 2 } }, // Tablets
@@ -87,7 +110,7 @@ const Blog = () => {
             </div>
 
 
-            {/* <div className='flex flex-col md:flex-row md:justify-between mt-[42px] gap-[17px] md:gap-0'> */}
+            <div className='relative'>
             <Slider {...settings}>
               <BlogCard
               src={blog1}/>
@@ -104,6 +127,7 @@ const Blog = () => {
             <BlogCard
               src={blog2}/>
            </Slider>
+           </div>
 
         </Container>
     </div>
