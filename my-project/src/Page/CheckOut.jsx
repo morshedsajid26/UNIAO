@@ -41,7 +41,7 @@ const CheckOut = () => {
             </div>
 
         
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between'>
           <div className="left w-[1095px]">
             <div className="icon grid grid-cols-11">
               <Icon src={payment5}/>
@@ -61,9 +61,9 @@ const CheckOut = () => {
           </div>
           <div className="right w-[526px]">
             <div className="up"></div>
-            <div className="down border border-white/15 rounded-[15px] px-8 py-[48px] ">
+            <div className="down border border-white/15 rounded-[15px] px-8 pt-8 pb-[48px] ">
               <div className='border-b w-[462px] border-white/15 flex flex-col items-center pb-[35px]'>
-              <div className="logo flex items-end gap-[6px] mt-[.9px] md:mt-[27px] ">
+              <div className="logo flex items-end gap-[6px] ">
                 <img className='w-7 h-[27px] md:w-[41.84px] md:h-[40.13px]' src={star} alt="" />
                 <img className='w-[86.86px] h-[18.94px] md:w-[144.53px] md:h-[31.52px]' src={trustpilot} alt="" />
               </div>
