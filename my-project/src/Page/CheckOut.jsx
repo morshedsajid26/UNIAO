@@ -11,6 +11,9 @@ import payment8 from '/payment8.png'
 import payment9 from '/payment9.png'
 import payment10 from '/payment10.png'
 import payment11 from '/payment11.png'
+import star from '/star.png'
+import trustpilot from '/trustpilot.png'
+import secure from '/secure.png'
 
 let Icon= ({src})=>{
   return(
@@ -38,7 +41,7 @@ const CheckOut = () => {
             </div>
 
         
-        <div>
+        <div className='flex justify-between items-center'>
           <div className="left w-[1095px]">
             <div className="icon grid grid-cols-11">
               <Icon src={payment5}/>
@@ -56,7 +59,31 @@ const CheckOut = () => {
             </div>
 
           </div>
-          <div className="right w-[526px]"></div>
+          <div className="right w-[526px]">
+            <div className="up"></div>
+            <div className="down border border-white/15 rounded-[15px] px-8 py-[48px] ">
+              <div className='border-b w-[462px] border-white/15 flex flex-col items-center pb-[35px]'>
+              <div className="logo flex items-end gap-[6px] mt-[.9px] md:mt-[27px] ">
+                <img className='w-7 h-[27px] md:w-[41.84px] md:h-[40.13px]' src={star} alt="" />
+                <img className='w-[86.86px] h-[18.94px] md:w-[144.53px] md:h-[31.52px]' src={trustpilot} alt="" />
+              </div>
+              
+              
+              
+              <p className='font-Inter text-[10px] md:text-[20px] text-[#787A7D]'>TrustScore 5.0 | 457 Reviews</p>
+              </div>
+
+              <div className='flex flex-col items-center'>
+              <div className='flex gap-[5px] md:gap-[9.5px] md:mt-[40.4px] md:mb-[4.85px]'>
+    <img className='w-[15.8px] h-[18.5px] md:w-[32.45px] md:h-[38.15px] ' src={secure} alt="" />
+
+    <p className='font-pop text-[13px] md:text-[28px] text-white'>Safe & Secure</p>
+   </div>
+
+   <p className='font-Inter text-[10px] md:text-[20px] text-[#787A7D] '>100% Secure, 24/7 Support</p>
+              </div>
+            </div>
+          </div>
         </div>
 
 
