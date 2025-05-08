@@ -41,11 +41,11 @@ const CheckOut = () => {
         <div>
           <div className="left w-[1095px]">
             <div className="icon grid grid-cols-11">
-              <Icon src={payment1}/>
+              <Icon src={payment5}/>
               <Icon src={payment2}/>
               <Icon src={payment3}/>
               <Icon src={payment4}/>
-              <Icon src={payment5}/>
+              <Icon src={payment1}/>
               <Icon src={payment6}/>
               <Icon src={payment7}/>
               <Icon src={payment8}/>
