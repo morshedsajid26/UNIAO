@@ -14,10 +14,23 @@ import payment11 from '/payment11.png'
 import star from '/star.png'
 import trustpilot from '/trustpilot.png'
 import secure from '/secure.png'
+import { FaLock } from 'react-icons/fa'
 
 let Icon= ({src})=>{
   return(
     <img className='w-[79.05px] h-[53.85px]' src={src} alt="" />
+
+  )
+}
+
+let InputBox= ({placeholder})=>{
+  return(
+    <div className=" relative">
+      <input className="outline-none w-[526px] px-[23px] py-5 bg-[#FFFFFF]/5 font-Inter text-white text-[24px] rounded-[10px] " type="text" placeholder={placeholder} />
+    {/* <div className="icon absolute top-1/2 -translate-y-1/2 right-0 w-1/2  ">
+    <FaLock className='' />
+    </div> */}
+    </div>
 
   )
 }
@@ -57,11 +70,20 @@ const CheckOut = () => {
               <Icon src={payment11}/>
 
             </div>
+            <div className="info grid grid-cols-2 grid-rows-3 gap-y-[25px] justify-between mt-[43px]">
+<InputBox placeholder='Card Name:'/>
+<InputBox placeholder='Month:'/>
+<InputBox placeholder='Card number:'/>
+<InputBox placeholder='Year:'/>
+<InputBox placeholder='Security code:'/>
+
+<button className='w-[526px]  rounded-[10px] text-white text-[24px] font-OS bg-gradient-to-tl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100%'> Pay Now</button>
+            </div>
 
           </div>
           <div className="right w-[526px]">
             <div className="up"></div>
-            <div className="down border border-white/15 rounded-[15px] px-8 pt-8 pb-[48px] ">
+            <div className="down border border-white/15 rounded-[15px] px-8 pt-8 pb-[48px] mb-[199px] ">
               <div className='border-b w-[462px] border-white/15 flex flex-col items-center pb-[35px]'>
               <div className="logo flex items-end gap-[6px] ">
                 <img className='w-7 h-[27px] md:w-[41.84px] md:h-[40.13px]' src={star} alt="" />
@@ -73,7 +95,7 @@ const CheckOut = () => {
               <p className='font-Inter text-[10px] md:text-[20px] text-[#787A7D]'>TrustScore 5.0 | 457 Reviews</p>
               </div>
 
-              <div className='flex flex-col items-center'>
+              <div className='flex flex-col items-center '>
               <div className='flex gap-[5px] md:gap-[9.5px] md:mt-[40.4px] md:mb-[4.85px]'>
     <img className='w-[15.8px] h-[18.5px] md:w-[32.45px] md:h-[38.15px] ' src={secure} alt="" />
 
