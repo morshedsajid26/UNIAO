@@ -18,7 +18,7 @@ import { FaLock } from 'react-icons/fa'
 
 let Icon= ({src})=>{
   return(
-    <img className='w-[79.05px] h-[53.85px]' src={src} alt="" />
+    <img className='w-[44px] md:w-[79.05px] h-[30px] md:h-[53.85px]' src={src} alt="" />
 
   )
 }
@@ -26,7 +26,7 @@ let Icon= ({src})=>{
 let InputBox= ({placeholder})=>{
   return(
     <div className=" relative">
-      <input className="outline-none w-[526px] px-[23px] py-5 bg-[#FFFFFF]/5 font-Inter text-white text-[24px] rounded-[10px] " type="text" placeholder={placeholder} />
+      <input className="outline-none w-[327px] md:w-[526px] px-3 md:px-[23px] py-2.5 md:py-5 bg-[#FFFFFF]/5 font-Inter text-white text-[14px] md:text-[24px] rounded-[10px] " type="text" placeholder={placeholder} />
     {/* <div className="icon absolute top-1/2 -translate-y-1/2 right-0 w-1/2  ">
     <FaLock className='' />
     </div> */}
@@ -54,9 +54,9 @@ const CheckOut = () => {
             </div>
 
         
-        <div className='flex justify-between'>
+        <div className='flex flex-col md:flex-row justify-between'>
           <div className="left w-[1095px]">
-            <div className="icon grid grid-cols-11">
+            <div className="icon grid grid-rows-2 grid-cols-6  md:grid-cols-11 gap-y-2.5 md:gap-0">
               <Icon src={payment5}/>
               <Icon src={payment2}/>
               <Icon src={payment3}/>
@@ -70,18 +70,26 @@ const CheckOut = () => {
               <Icon src={payment11}/>
 
             </div>
-            <div className="info grid grid-cols-2 grid-rows-3 gap-y-[25px] justify-between mt-[43px]">
-<InputBox placeholder='Card Name:'/>
-<InputBox placeholder='Month:'/>
-<InputBox placeholder='Card number:'/>
-<InputBox placeholder='Year:'/>
-<InputBox placeholder='Security code:'/>
+            <div className="info flex flex-col md:flex-row justify-between mt-[43px]">
 
-<button className='w-[526px]  rounded-[10px] text-white text-[24px] font-OS bg-gradient-to-tl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100%'> Pay Now</button>
+              <div className="left flex flex-col gap-4 md:gap-[25px]">
+                <InputBox placeholder='Card Name:'/>
+
+              <InputBox placeholder='Card number:'/>
+
+              <InputBox placeholder='Security code:'/>
+              </div>
+              <div className="right flex flex-col gap-4 md:gap-[25px] mt-4 md:mt-0">
+                <InputBox placeholder='Month:'/>
+                <InputBox placeholder='Year:'/>
+                <button className='w-[327px] md:w-[526px] py-2.5 md:py-5  rounded-[10px] text-white text-[12px] md:text-[24px] font-OS bg-gradient-to-tl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100%'> Pay Now</button>
+              </div>
+
+
             </div>
 
           </div>
-          <div className="right w-[526px]">
+          <div className=" right w-[526px]">
             <div className="up"></div>
             <div className="down border border-white/15 rounded-[15px] px-8 pt-8 pb-[48px] mb-[199px] ">
               <div className='border-b w-[462px] border-white/15 flex flex-col items-center pb-[35px]'>
