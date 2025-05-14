@@ -90,7 +90,9 @@ const CheckOut = () => {
 
           </div>
           <div className=" right w-[526px] mt-[63px] md:mt-0">
-            <div className="up"></div>
+            <div className="up w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px]">
+            d
+            </div>
             <div className="down w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] mb-[199px] ">
               <div className='border-b w-[288px] md:w-[462px] border-white/15 flex flex-col items-center pb-[14px] md:pb-[35px]'>
               <div className="logo flex items-end gap-[6px] ">
