@@ -90,8 +90,22 @@ const CheckOut = () => {
 
           </div>
           <div className=" right w-[526px] mt-[63px] md:mt-0">
-            <div className="up w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px]">
-            d
+            <div className="up w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] ">
+            
+            <table className='flex justify-between items-start text-white font-inter text-[26px] font-extralight'>
+            <th>
+              <tr>2 Items</tr>
+              <tr>VAT</tr>
+              <tr>Fees</tr>
+              
+            </th>
+            <th>
+              <tr>$99</tr>
+              <tr>$2,81</tr>
+              <tr>$0,81</tr>
+            </th>
+
+            </table>
             </div>
             <div className="down w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] mb-[199px] ">
               <div className='border-b w-[288px] md:w-[462px] border-white/15 flex flex-col items-center pb-[14px] md:pb-[35px]'>
