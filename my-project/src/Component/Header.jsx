@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 const Header = () => {
   return (
     <div>
-        <SearchBar/>
+        
         
     </div>
   )
