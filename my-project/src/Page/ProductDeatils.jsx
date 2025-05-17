@@ -14,10 +14,15 @@ import Description from '../Layer/Description'
 import YouMayLike from '../Layer/YouMayLike'
 import ProductReview from '../Layer/ProductReview'
 import GameMedia from '../Layer/GameMedia'
+import Navbar from '../Component/Navbar'
 
 const ProductDeatils = () => {
   return (
-    <div className='py-[120px]' >
+    
+    <div>
+      <Navbar/>
+      <div className='py-[120px]' >
+      
       <Container className='flex justify-between'>
       <div className="left w-[817px]">
         <div className="image">
@@ -183,6 +188,7 @@ const ProductDeatils = () => {
       <GameMedia/>
       <ProductReview/>
       <YouMayLike/>
+    </div>
     </div>
   )
 }

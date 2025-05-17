@@ -7,6 +7,7 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import CheckBox from '../Component/CheckBox'
 import { HiLightningBolt } from 'react-icons/hi'
 import { FaFilter } from 'react-icons/fa'
+import Navbar from '../Component/Navbar'
 
 const Shop = () => {
   let [delivery,setDelivery] = useState(false);
@@ -17,6 +18,7 @@ const Shop = () => {
   let [filter,setFilter]= useState(false);
   return (
     <div>
+      <Navbar/>
        <Container>
        <div className='mt-[19px] flex flex-row md:gap-6 gap-2'>
             <button className='md:py-[11px] py-[5px] px-[6.5px] md:px-[14px] border rounded-md md:rounded-xl hover:bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% hover:border-transparent transition-all duration-500 text-white font-OS text-[14px] md:text-[24px] '>PlayStation Network</button>

@@ -7,7 +7,7 @@ import Header from '../Component/Header'
 
 const RootLayout = () => {
   return (
-    <div className='bg-[#15181D]'>
+    <div className='bg-[#15181D] overflow-hidden'>
         <Header/>
         <Outlet/>
         <Footer/>

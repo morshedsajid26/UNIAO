@@ -10,10 +10,12 @@ import Offer from '../Layer/Offer'
 import ComingSoon from '../Layer/ComingSoon'
 import WeeklyDeals from '../Layer/WeeklyDeals'
 import Blog from '../Layer/Blog'
+import Navbar from '../Component/Navbar'
 
 const Home = () => {
   return (
     <div>
+      <Navbar/>
       <Banner/>
       <Review/>
       <WeeklyDeals/>
