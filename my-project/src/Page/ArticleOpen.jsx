@@ -98,7 +98,7 @@ const ArticleOpen = () => {
                 
               </div>
 
-              <div className="flex justify-between mt-[71px]">
+              <div className="flex md:flex-row flex-col justify-between mt-[71px]">
 
               <div className="left w-[327px] md:w-[1042px] ">
 
@@ -110,44 +110,44 @@ const ArticleOpen = () => {
               unchanged. It was popularised in the 1960s.</span>
               </p>
 
-              <div className='h-[1px] md:h-[2px] w-[40px] md:w-[1069px] bg-custom-gradient mt-[83px] mb-[65px]'
+              <div className='h-[1px] md:h-[2px] w-[318px] md:w-[1069px] bg-custom-gradient mt-[83px] mb-[65px]'
                 ></div>
 
-                <h3 className='font-pop text-white text-[48px] font-medium w-[752px]'>
+                <h3 className='font-pop text-white text-[17px] md:text-[48px] font-medium w-[267px] md:w-[752px]'>
                 Introducing Reader. A Stunning
                 Experience
                 </h3>
 
-                <p className='font-Inter text-white text-[24px] mt-[39px] mb-[74px]'>
+                <p className='font-Inter text-white text-[16px] md:text-[24px] md:mt-[39px] mb-[74px]'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                 has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has 
-                not only five centuries, but also the leap.
+                printer took a galley of type and scrambled it to make a type specimen <span className='hidden md:inline '> book. It has 
+                not only five centuries, but also the leap.</span>
                 </p>
 
-                <img src={PlayStationPlus} alt="" />
+                <img className='w-[319px] h-[196px] md:w-auto md:h-auto' src={PlayStationPlus} alt="" />
 
-                <p className='font-Inter text-white text-[24px] mt-[86px] mb-[70px]'>
+                <p className='font-Inter text-white text-[16px] md:text-[24px] md:mt-[39px] mb-[30px] md:mb-[74px]'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                 has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has 
-                not only five centuries, but also the leap.
+                printer took a galley of type and scrambled it to make a type specimen <span className='hidden md:inline '> book. It has 
+                not only five centuries, but also the leap.</span>
                 </p>
 
 
 
               <div className='flex justify-between'>
-                <div className="child w-[357px] bg-[#1E2127] rounded-[25px] py-[37px] px-[45px]">
-                  <p className='font-Inter text-white text-[28px]'>Author:</p>
+                <div className="child w-[131px] md:w-[357px] bg-[#1E2127] rounded-[15px] md:rounded-[25px] p-4 md:py-[37px] md:px-[45px]">
+                  <p className='font-Inter text-white text-[15px] md:text-[28px]'>Author:</p>
 
-                  <p className='flex items-center text-white text-[26px] font-Inter mt-5 gap-2.5'>
-                  <FaCircleUser className='w-[35px] h-[35px]' />
+                  <p className='flex items-center text-white text-[15px] md:text-[26px] font-Inter mt-5 gap-2.5'>
+                  <FaCircleUser className='w-[22px] md:w-[35px] h-[22px] md:h-[35px]' />
                   Username
                   </p>
 
                 </div>
-                <div className="child w-[649px] bg-[#1E2127] rounded-[25px] py-[37px] px-[45px]">
-                  <p className='font-Inter text-white text-[28px]'>Share This Article:</p>
+                <div className="child w-[171px] md:w-[649px] bg-[#1E2127] rounded-[15px] md:rounded-[25px] py-[15px] md:py-[37px] px-4 md:px-[45px]">
+                  <p className='font-Inter text-white text-[15px] md:text-[28px]'>Share This Article:</p>
 
                   <ul className='flex  gap-[6px] md:gap-2 mt-[19px]'>
                      <li className='w-[30px] h-[30px] md:w-[49px] md:h-[49px] rounded-full bg-gradient-to-tr from-[#00DBDE] from-1% via-[#7E6EEF] via-50% to-[#FC00FF] to-100% flex items-center justify-center text-white '><FaXTwitter /></li>
@@ -161,7 +161,47 @@ const ArticleOpen = () => {
               </div>
 
 
-                <div className="recommended w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px] mt-[133px]">
+                
+
+              </div>
+
+
+              <div className="right w-[327px] md:w-[526px] bg-[#1E2127] h-[231px]  md:h-[407px] pr-[10px] md:pr-[57px] pl-[18px] md:pl-[41px] pt-[22px] md:pt-[36px] pb-[225px] md:pb-[390px] rounded-[15px] md:rounded-[25px] mt-20 md:mt-0">
+                
+                <h3 className='text-white text-[16px] md:text-[30px] font-Inter'>Browse by Tags</h3>
+
+                <div className="tag flex flex-col gap-2 md:gap-[23px] mt-4 md:mt-8">
+
+
+                <div className="div flex gap-[9px] md:gap-[14px] ">
+                  <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>game</span>
+                  <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>STRAY</span>
+                  <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>GAMING NEWS</span>
+
+                </div>
+
+                <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>WHICH CONSOLE IS BEST VALUE FOR MONEY?</span>
+
+                <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>GET YOUR PC GAME KEYS NOW: LATEST</span>
+
+                <div className='flex gap-[9px] md:gap-[14px]'>
+                <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>IS SIFU FOR PC?</span>
+
+                <span className='py-2 md:py-[13px] px-3 md:px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[12px] md:text-[17px] uppercase'>DESTINY</span>
+                </div>
+
+
+
+                </div>
+
+                
+              </div>
+
+              </div>
+
+
+              <div>
+                <div className="recommended w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px] mt-20 md:mt-[133px]">
                   <div className="bg-[#1E2127] rounded-[25px] p-[50px]">
 
 
@@ -226,41 +266,6 @@ const ArticleOpen = () => {
                 </div>
                   
                 </div>
-
-              </div>
-
-
-              <div className="right w-[526px] bg-[#1E2127]  h-[407px] pr-[57px] pl-[41px] pt-[36px] pb-[390px] rounded-[25px]">
-                
-                <h3 className='text-white text-[30px] font-Inter'>Browse by Tags</h3>
-
-                <div className="tag flex flex-col gap-[23px] mt-8">
-
-
-                <div className="div flex gap-[14px] ">
-                  <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>game</span>
-                  <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>STRAY</span>
-                  <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>GAMING NEWS</span>
-
-                </div>
-
-                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>WHICH CONSOLE IS BEST VALUE FOR MONEY?</span>
-
-                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>GET YOUR PC GAME KEYS NOW: LATEST</span>
-
-                <div className='flex gap-[14px]'>
-                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>IS SIFU FOR PC?</span>
-
-                <span className='py-[13px] px-5 rounded-[10px] bg-[#15181D] text-white font-Inter text-[17px] uppercase'>DESTINY</span>
-                </div>
-
-
-
-                </div>
-
-                
-              </div>
-
               </div>
 
         </Container>
