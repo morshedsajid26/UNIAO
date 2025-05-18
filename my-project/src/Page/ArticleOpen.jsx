@@ -11,18 +11,18 @@ import recommended5 from '/recommended5.png'
 import recommended6 from '/recommended6.png'
 import { FaCircleUser, FaFacebookF, FaLinkedinIn, FaMessage, FaXTwitter } from 'react-icons/fa6'
 
-let RecommendedChild = ({src})=>{
+let RecommendedChild = ({src,className})=>{
   return(
-    <div className="child flex items-center gap-[18px]">
-                    <div className="img ">
-                      <img src={src} alt="" />
+    <div className={`child flex items-center gap-[18px] ${className}`}>
+                    <div className="img  ">
+                      <img className='w-[95px] h-[95px] md:w-auto md:h-auto' src={src} alt="" />
                     </div>
                     <div className="text">
-                    <p className='text-[24px] font-pop text-[#E614FC]  w-[234px] '>Post title article title
+                    <p className='text-[17px] md:text-[24px] font-pop text-[#E614FC] w-[166px] md:w-[234px] '>Post title article title
                     name article blog...</p>
 
-                    <p className='text-white/40 font-Inter text-[20px] flex items-center gap-[7px] mt-3'>
-                    <IoTimerSharp className=' h-[31px] w-[31px]'/>
+                    <p className='text-white/40 font-Inter text-[15px] md:text-[20px] flex items-center gap-[7px] mt-3'>
+                    <IoTimerSharp className=' h-5 md:h-[31px] w-5 md:w-[31px]'/>
                     3 min read
                     </p>
                     </div>
@@ -201,28 +201,31 @@ const ArticleOpen = () => {
 
 
               <div>
-                <div className="recommended w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px] mt-20 md:mt-[133px]">
-                  <div className="bg-[#1E2127] rounded-[25px] p-[50px]">
+                <div className="recommended w-[327px] md:w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px] mt-20 md:mt-[133px]">
+                  <div className="bg-[#1E2127] rounded-[25px] p-6 md:p-[50px]">
 
 
                 <div className="up flex justify-between items-center">
-                  <h3 className='font-Inter text-[34px] text-white'>Recommended Articles</h3>
-                  <div className='h-[1px] md:h-[2px] w-[40px] md:w-[560px] bg-custom-gradient'
+                  <h3 className='font-Inter text-[18px] md:text-[34px] text-white'>Recommended Articles</h3>
+                  <div className=' hidden md:block h-[1px] md:h-[2px] w-[40px] md:w-[560px] bg-custom-gradient'
                 ></div>
                 </div>
 
-                <div className="down grid grid-rows-3 grid-cols-2 gap-y-[57px] mt-11">
+                <div className="down grid md:grid-rows-3 md:grid-cols-2 gap-4 md:gap-y-[57px] mt-4 md:mt-11">
                   <RecommendedChild
                   src={recommended1}
                   />
                   <RecommendedChild
                   src={recommended2}
+                  className='hidden md:flex'
                   />
                   <RecommendedChild
                   src={recommended3}
+                  className='hidden md:flex'
                   />
                   <RecommendedChild
                   src={recommended4}
+                  className='hidden md:flex'
                   />
                   <RecommendedChild
                   src={recommended5}
