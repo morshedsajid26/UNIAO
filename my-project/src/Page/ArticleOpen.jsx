@@ -201,8 +201,8 @@ const ArticleOpen = () => {
 
 
               <div>
-                <div className="recommended w-[327px] md:w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[25px] mt-20 md:mt-[133px]">
-                  <div className="bg-[#1E2127] rounded-[25px] p-6 md:p-[50px]">
+                <div className="recommended w-[327px] md:w-[1057px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-47% to-[#FB01FF] to-100% p-[2px] rounded-[15px] md:rounded-[25px] mt-20 md:mt-[133px]">
+                  <div className="bg-[#1E2127] rounded-[15px] md:rounded-[25px] p-6 md:p-[50px]">
 
 
                 <div className="up flex justify-between items-center">
@@ -247,25 +247,25 @@ const ArticleOpen = () => {
 
 
 
-                <div className="contact w-[1057px] bg-[#1E2127] rounded-[25px] mt-[121px] mb-[196px] py-[45px] px-[50px] ">
+                <div className="contact w-[327px] md:w-[1057px] bg-[#1E2127] rounded-[15px] md:rounded-[25px] my-20 md:mt-[121px] md:mb-[196px] py-6 md:py-[45px] px-7 md:px-[50px] ">
 
                 <div className="up flex justify-between items-center ">
-                  <h3 className='font-Inter text-[34px] text-white'>Article Comments</h3>
-                  <div className='h-[1px] md:h-[2px] w-[40px] md:w-[560px] bg-custom-gradient'
+                  <h3 className='font-Inter text-[18px] md:text-[34px] text-white'>Article Comments</h3>
+                  <div className='h-[1px] md:h-[2px] hidden md:block w-[40px] md:w-[560px] bg-custom-gradient'
                 ></div>
                 </div>
 
-                <div className="down mt-10">
-                  <div className='flex justify-between '>
-                  <input className='bg-[#15181D] py-[15px] px-[21px] w-[468px] rounded-[10px] text-white/50 font-Inter text-[24px] outline-none' type="text" placeholder='Name:' />
-                  <input className='bg-[#15181D] py-[15px] px-[21px] w-[468px] rounded-[10px] text-white/50 font-Inter text-[24px] outline-none' type="text" placeholder='Email:' />
+                <div className="down mt-4 md:mt-10">
+                  <div className='flex flex-col md:flex-row justify-between gap-2.5 '>
+                  <input className='bg-[#15181D] py-2.5 md:py-[15px] pl-3  md:pl-[21px] md:w-[468px] rounded-[5px] md:rounded-[10px] text-white/50 font-Inter text-[14px] md:text-[24px] outline-none' type="text" placeholder='Name:' />
+                  <input className='bg-[#15181D] py-2.5 md:py-[15px] pl-3  md:pl-[21px] md:w-[468px] rounded-[5px] md:rounded-[10px] text-white/50 font-Inter text-[14px] md:text-[24px] outline-none' type="text" placeholder='Email:' />
                   </div>
 
 
-                  <input className='bg-[#15181D] pt-[15px] pb-[134px] px-[21px] w-full rounded-[10px] text-white/50 font-Inter text-[24px] outline-none mt-7' type='text' placeholder='Comment:' />
+                  <input className='bg-[#15181D] pt-2.5 md:pt-[15px] pb-[87px] md:pb-[134px] px-3 md:px-[21px] w-full rounded-[5px] md:rounded-[10px] text-white/50 font-Inter text-[14px] md:text-[24px] outline-none mt-3 md:mt-7' type='text' placeholder='Comment:' />
 
 
-                  <button className='px-[31px] py-[17px] text-[23px] text-white font-Inter bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% rounded-[10px] mt-7'>Publish</button>
+                  <button className='px-2.5 md:px-[31px] py-2 md:py-[17px] text-[12px] md:text-[23px] text-white font-Inter bg-gradient-to-bl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% rounded-[5px] md:rounded-[10px] mt-7'>Publish</button>
                 </div>
                   
                 </div>
