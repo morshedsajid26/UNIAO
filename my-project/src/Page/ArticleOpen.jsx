@@ -110,7 +110,7 @@ const ArticleOpen = () => {
               unchanged. It was popularised in the 1960s.</span>
               </p>
 
-              <div className='h-[1px] md:h-[2px] w-[318px] md:w-[1069px] bg-custom-gradient mt-[83px] mb-[65px]'
+              <div className='h-[1px] md:h-[2px] w-[318px] md:w-[1069px] bg-white/20 md:bg-custom-gradient md:mt-[83px] md:mb-[65px] my-[25px]'
                 ></div>
 
                 <h3 className='font-pop text-white text-[17px] md:text-[48px] font-medium w-[267px] md:w-[752px]'>
@@ -118,7 +118,7 @@ const ArticleOpen = () => {
                 Experience
                 </h3>
 
-                <p className='font-Inter text-white text-[16px] md:text-[24px] md:mt-[39px] mb-[74px]'>
+                <p className='font-Inter text-white text-[16px] md:text-[24px] md:mt-[39px] mb-[17px] md:mb-[74px]'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                 has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galley of type and scrambled it to make a type specimen <span className='hidden md:inline '> book. It has 
@@ -127,7 +127,7 @@ const ArticleOpen = () => {
 
                 <img className='w-[319px] h-[196px] md:w-auto md:h-auto' src={PlayStationPlus} alt="" />
 
-                <p className='font-Inter text-white text-[16px] md:text-[24px] md:mt-[39px] mb-[30px] md:mb-[74px]'>
+                <p className='font-Inter text-white text-[16px] md:text-[24px] mt-[13px] md:mt-[39px] mb-[30px] md:mb-[74px]'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
                 has been the industry's standard dummy text ever since the 1500s, when an unknown 
                 printer took a galley of type and scrambled it to make a type specimen <span className='hidden md:inline '> book. It has 
