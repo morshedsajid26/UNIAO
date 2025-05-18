@@ -100,14 +100,14 @@ const ArticleOpen = () => {
 
               <div className="flex justify-between mt-[71px]">
 
-              <div className="left w-[1042px] ">
+              <div className="left w-[327px] md:w-[1042px] ">
 
-              <p className='font-Inter text-white text-[24px]'>
+              <p className='font-Inter text-white text-[16px] md:text-[24px]'>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
               has been the industry's standard dummy text ever since the 1500s, when an unknown 
               printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-              not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-              unchanged. It was popularised in the 1960s.
+              not only five centuries, <span className='hidden md:inline '> but also the leap into electronic typesetting, remaining essentially 
+              unchanged. It was popularised in the 1960s.</span>
               </p>
 
               <div className='h-[1px] md:h-[2px] w-[40px] md:w-[1069px] bg-custom-gradient mt-[83px] mb-[65px]'
@@ -204,7 +204,7 @@ const ArticleOpen = () => {
 
 
 
-                <div className="contact w-[1057px] bg-[#1E2127] rounded-[25px] mt-[121px] py-[45px] px-[50px] ">
+                <div className="contact w-[1057px] bg-[#1E2127] rounded-[25px] mt-[121px] mb-[196px] py-[45px] px-[50px] ">
 
                 <div className="up flex justify-between items-center ">
                   <h3 className='font-Inter text-[34px] text-white'>Article Comments</h3>
