@@ -67,24 +67,24 @@ const ArticleOpen = () => {
 
               <div className=' bg-[url("/public/BlogBanner.png")] h-[445px] md:h-full bg-cover bg-right md:bg-center bg-no-repeat w-[327px]  md:w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 rounded-[25px]  '>
 
-              <div className=' pt-[486px] '>
+              <div className='pt-[213px] md:pt-[486px] '>
 
 
-              <div className='bg-gradient-to-t from-0% from-black  pb-[69px] pl-[69px] pt-[106px] rounded-[25px]'>
+              <div className='bg-gradient-to-t from-0% from-black pb-[22px] md:pb-[69px] pl-[26px] md:pl-[69px] pt-20 md:pt-[106px] rounded-[25px]'>
   
-                      <div className='flex gap-[11px]'>
-                        <span className='py-1 px-2.5 bg-white font-OS text-[18px] rounded-[10px]'>Gaming</span>
+                      <div className='flex gap-[6px]  md:gap-[11px]'>
+                        <span className='py-1 px-[6px] md:px-2.5 bg-white font-OS text-[12px] md:text-[18px] rounded-[10px]'>Gaming</span>
 
-                        <span className='py-1 px-2.5 bg-white font-OS text-[18px] rounded-[10px]'>Stray</span>
+                        <span className='py-1 px-[6px] md:px-2.5 bg-white font-OS text-[12px] md:text-[18px] rounded-[10px]'>Stray</span>
                       </div>
 
-                      <h3 className='font-Inter text-white text-[68px] mt-[9px] mb-[22px]'>Top digital game releases</h3>
+                      <h3 className='font-Inter text-white w-[198px] md:w-auto text-[26px] md:text-[68px] mt-[9px] mb-[17px] md:mb-[22px]'>Top digital game releases</h3>
 
-                      <div className='flex items-center gap-[22.5px]'>
-                        <p className='text-[24px] font-Inter text-[#E614FC]'>19 Sep, 23</p>
+                      <div className='flex items-center gap-3 md:gap-[22.5px]'>
+                        <p className='text-[13px] md:text-[24px] font-Inter text-[#E614FC]'>19 Sep, 23</p>
 
-                        <p className='text-white font-OS text-[20px] flex items-center gap-[7px]'>
-                        <IoTimerSharp className='text-white/40 h-[31px] w-[31px]' />
+                        <p className='text-white font-OS text-[14px] md:text-[20px] flex items-center gap-[5px] md:gap-[7px]'>
+                        <IoTimerSharp className='text-white/40 h-[17px] md:h-[31px] w-[17px] md:w-[31px]' />
                       
                         3 min read
                         
