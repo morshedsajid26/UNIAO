@@ -21,29 +21,29 @@ const ProductDeatils = () => {
     
     <div>
       <Navbar/>
-      <div className='py-[120px]' >
+      <div className='pt-[29px] md:py-[120px]' >
       
-      <Container className='flex justify-between'>
-      <div className="left w-[817px]">
+      <Container className='flex md:flex-row flex-col  justify-between'>
+      <div className="left w-[327px] md:w-[817px]">
         <div className="image">
-          <img src={productDetails} alt="" />
+          <img className='md:w-auto md:h-auto w-[327px] h-[298px]' src={productDetails} alt="" />
         </div>
 
-        <div className='border border-white/20 rounded-[10px] mt-[90px] flex items-center pl-4 py-3'>
-        <HiMiniInformationCircle className='w-[30px] h-[30px] text-white ' />
-          <p className='font-OS text-white text-[22px]   ml-4'>This is a Playstation Account Access (This is not code/key) 
+        <div className='border border-white/20 rounded-[10px] mt-[18px] md:mt-[90px] flex md:items-center pl-4 py-3 w-[327px] md:w-auto'>
+        <HiMiniInformationCircle className='w-[15px] md:w-[30px]  h-[15px] md:h-[30px] text-white ' />
+          <p className='font-OS text-white text-[12px] md:text-[22px]   ml-4 w-[198px] md:w-auto'>This is a Playstation Account Access (This is not code/key) 
             <span className='underline'>  Learn More</span></p>
         </div>
 
       </div>
 
-      <div className="right w-[817px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px] ">
-      <div className='bg-[#1E2127] h-full rounded-[25px] py-7 px-[59px]'>
+      <div className="right w-[327px] md:w-[817px] bg-gradient-to-b from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px] ">
+      <div className='bg-[#1E2127] h-full rounded-[25px] p-5 md:py-7 md:px-[59px]'>
 
 
         <div className="top w-full flex items-center justify-center pb-5 border-b border-white/20">
-        <BiSolidError className='w-[30px] h-7 text-white' />
-        <p className='font-OS text-white text-[23px] ml-2.5'>Can not be activated in Sweden</p>
+        <BiSolidError className='w-[18] md:w-[30px] md:h-7 h-[18px] text-white' />
+        <p className='font-OS text-white text-[14px] md:text-[23px] ml-2.5'>Can not be activated in Sweden</p>
 
         </div>
 

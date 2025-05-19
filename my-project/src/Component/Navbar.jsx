@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='mt-[25px]'>
       <Container>
-        <ul className='flex justify-between items-center '>
+        <ul className='flex gap-2.5 md:gap-0 md:justify-between items-center '>
             <Li href='/shop/' imageClass='md:w-auto md:h-auto h-[24.31px] w-[31.5px] '  src={Li_1}/>
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_2}/>
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_3}/>
