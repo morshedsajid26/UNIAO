@@ -23,7 +23,7 @@ const ProductDeatils = () => {
       <Navbar/>
       <div className='pt-[29px] md:py-[120px]' >
       
-      <Container className='flex md:flex-row flex-col  justify-between'>
+      <Container className='flex md:flex-row flex-col  justify-between gap-[27.5px] md:gap-0'>
       <div className="left w-[327px] md:w-[817px]">
         <div className="image">
           <img className='md:w-auto md:h-auto w-[327px] h-[298px]' src={productDetails} alt="" />
@@ -149,9 +149,9 @@ const ProductDeatils = () => {
               <span className='font-bold'> superb!</span></p>
         </div>
 
-        <p className='font-Inter text-[24px] text-white justify-center mt-[18px] pb-[29px] border-b border-white/20 hidden md:flex'>6 More Offers Available Starting From $55.99</p>
+        <p className='font-Inter text-[24px] text-white justify-center mt-[18px] hidden md:flex'>6 More Offers Available Starting From $55.99</p>
 
-        <div className='md:flex grid items-center gap-[18px] mt-[31px] border-b border-white/20 pb-10'>
+        <div className='md:flex grid items-center gap-[18px] mt-[153px] md:mt-[31px] pt-[29px] border-t border-white/20 '>
 
         <div className='flex items-center gap-[2px] md:gap-2.5'>
                 <p className='flex flex-col font-OS text-[#78797D] text-[10px] md:text-[20px]'>From 
@@ -172,7 +172,7 @@ const ProductDeatils = () => {
 
         </div>
 
-        <div className='flex items-center justify-center gap-4 mt-6'>
+        <div className='hidden md:flex items-center justify-center gap-4 mt-6 border-t border-white/20 pt-10'>
         <HiMiniInformationCircle className='w-[30.22px] h-[30.22px] text-white ' />
         <p className='font-OS text-[22px] text-white'>How to activate</p>
         </div>
