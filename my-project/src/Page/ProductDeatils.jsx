@@ -48,45 +48,45 @@ const ProductDeatils = () => {
         </div>
 
 
-        <div className='flex items-center mt-[34px] '>
-          <div className="icon w-[200px] rounded-full bg-[#15181D] flex items-center justify-center gap-1 py-[12.5px]">
-            <img className='w-[29.4px] h-7' src={star} alt="" />
-            <img className='w-[29.4px] h-7' src={star} alt="" />
-            <img className='w-[29.4px] h-7' src={star} alt="" />
-            <img className='w-[29.4px] h-7' src={star} alt="" />
-            <img className='w-[29.4px] h-7' src={star} alt="" />
+        <div className='flex items-center mt-[14px] md:mt-[34px] '>
+          <div className="icon w-[97px] md:w-[200px] rounded-full bg-[#15181D] flex items-center justify-center gap-1 py-[6px] md:py-[12.5px]">
+            <img className='w-[14px] md:w-[29.4px] h-[14px] md:h-7' src={star} alt="" />
+            <img className='w-[14px] md:w-[29.4px] h-[14px] md:h-7' src={star} alt="" />
+            <img className='w-[14px] md:w-[29.4px] h-[14px] md:h-7' src={star} alt="" />
+            <img className='w-[14px] md:w-[29.4px] h-[14px] md:h-7' src={star} alt="" />
+            <img className='w-[14px] md:w-[29.4px] h-[14px] md:h-7' src={star} alt="" />
           </div>
-          <div className="review ml-[19px] mr-[233px]">
-            <p className='font-Inter text-[23px] text-[#787A7D]'>5.0 (457 Reviews)</p>
+          <div className="review ml-[10px] md:ml-[19px] mr-[40px] md:mr-[233px]">
+            <p className='font-Inter text-[13px] md:text-[23px] text-[#787A7D]'>5.0 (457 Reviews)</p>
           </div>
-          <div className="icon w-[54px] h-[54px] rounded-full bg-[#15181D] flex items-center justify-center ">
-          <IoShareSocialSharp className='w-[27.66px] h-[29.09px] text-white' />
+          <div className="icon w-[26px] md:w-[54px] h-[26px] md:h-[54px] rounded-full bg-[#15181D] flex items-center justify-center ">
+          <IoShareSocialSharp className='w-[14px] md:w-[27.66px] h-[14px] md:h-[29.09px] text-white' />
           </div>
         </div>
 
-        <h1 className='font-OS text-[58px] text-white mt-[5px]'>The Last Of Us Part II</h1>
+        <h1 className='font-OS text-[24px] md:text-[58px] text-white mt-[5px]'>The Last Of Us Part II</h1>
 
         <div className="button flex flex-col gap-[18px] mt-[25px] border-b pb-[50px] border-white/20">
           <div className="one flex gap-[14px]">
-            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             PS5
             </button>
 
-            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] border border-white/30 rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             PS4
             </button>
 
-            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] border border-white/30 rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             PS3
             </button>
           </div>
 
           <div className="two flex gap-[14px]">
-            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             Key
             </button>
 
-            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] border border-white/30 rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             Account
             </button>
 
@@ -94,11 +94,11 @@ const ProductDeatils = () => {
 
 
           <div className="three flex gap-[14px]">
-            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
            UK
             </button>
 
-            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] border border-white/30 rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             EU
             </button>
 
@@ -106,22 +106,22 @@ const ProductDeatils = () => {
 
 
           <div className="four flex gap-[14px]">
-            <button className='py-2.5 px-3 bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-r from-[#18C5E1] from-0% via-[#text-[14px] md:8666EF] via-30% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             Deluxe
             </button>
 
-            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] border border-white/30 rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             Complete
             </button>
 
-            <button className='py-2.5 px-3 border border-white/30 rounded-[15px] font-OS text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] border border-white/30 rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             Ultimate
             </button>
           </div>
 
         </div>
 
-        <div className="button flex gap-5 mt-[42px]">
+        <div className="button  gap-5 mt-[42px] hidden md:flex">
           <button className='text-[#2BB6E4] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#2BB6E4] font-OS'>
           Save 25%
           </button>
@@ -137,7 +137,7 @@ const ProductDeatils = () => {
           </button>
         </div>
 
-        <div className='w-full bg-white rounded-[10px] py-[15px] pl-[23px] flex items-center mt-[25px]'>
+        <div className='w-full bg-white rounded-[10px] py-[15px] pl-[23px] hidden md:flex items-center mt-[25px]'>
           <img src={cart} alt="" />
           <p className='text-[24px] text-black font-Inter ml-3' >Sold By 
             <span className='text-[#E614FC]'>BigBoyGames</span>
@@ -149,9 +149,9 @@ const ProductDeatils = () => {
               <span className='font-bold'> superb!</span></p>
         </div>
 
-        <p className='font-Inter text-[24px] text-white flex justify-center mt-[18px] pb-[29px] border-b border-white/20'>6 More Offers Available Starting From $55.99</p>
+        <p className='font-Inter text-[24px] text-white justify-center mt-[18px] pb-[29px] border-b border-white/20 hidden md:flex'>6 More Offers Available Starting From $55.99</p>
 
-        <div className='flex items-center gap-[18px] mt-[31px] border-b border-white/20 pb-10'>
+        <div className='md:flex grid items-center gap-[18px] mt-[31px] border-b border-white/20 pb-10'>
 
         <div className='flex items-center gap-[2px] md:gap-2.5'>
                 <p className='flex flex-col font-OS text-[#78797D] text-[10px] md:text-[20px]'>From 
@@ -161,9 +161,9 @@ const ProductDeatils = () => {
                 <p className='text-[14px] md:text-[32px] text-[#E614FC] font-OS'>$59,99</p>
                 </div>
 
-          <button className='bg-gradient-to-br from-[#FF0000] from-1% via-[#FF6300] via-50% to-[#FFC700] to-100% font-OS text-[24px] py-3 px-[22px] rounded-[10px]'>Grab 15% OFF</button> 
+          <button className='bg-gradient-to-br from-[#FF0000] from-1% via-[#FF6300] via-50% to-[#FFC700] to-100% font-OS md:text-[24px] text-[14px] py-2 px-[45px] md:py-3 md:px-[22px] rounded-[10px]'>Grab 15% OFF</button> 
 
-           <button className='flex  items-center gap-2 md:py-3 md:px-[22px] py-[5px] px-2 bg-gradient-to-br from-[#00DBDE] from-1% via-50% via-[#7E6EEF] to-[#FC00FF] to-100% rounded-[10px]  cursor-pointer font-OS md:text-[24px] text-[14px] text-white'>
+           <button className='flex justify-center  items-center gap-2 md:py-3 md:px-[22px] py-2 px-[50px] bg-gradient-to-br from-[#00DBDE] from-1% via-50% via-[#7E6EEF] to-[#FC00FF] to-100% rounded-[10px]  cursor-pointer font-OS md:text-[24px] text-[14px] text-white'>
                          <MdAddShoppingCart className='md:w-[33px] md:h-[29px] w-[17px] h-[15px] text-white ' />
                          Buy Now
            </button>
