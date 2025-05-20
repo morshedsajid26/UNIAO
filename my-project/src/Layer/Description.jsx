@@ -27,7 +27,7 @@ let OfferCard = () => {
 
 const Description = () => {
   return (
-    <div className='py-[176px]'>
+    <div className='pb-[107px] pt-[48px] md:py-[176px]'>
         <Container className='flex-col-reverse flex md:flex-row justify-between gap-[38px] md:gap-0'>
             <div className="left w-[327px] md:w-[817px]">
                 <h3 className='font-OS text-[16px] md:text-[30px] text-white'>Description</h3>
