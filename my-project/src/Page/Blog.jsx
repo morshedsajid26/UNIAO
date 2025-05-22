@@ -50,7 +50,7 @@ const Blog = () => {
                                  </div>
                       </div>
 
-              <div className=' bg-[url("/public/BlogBanner.png")] bg-cover bg-center bg-no-repeat w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 rounded-[25px]  '>
+              <div className=' bg-[url("/public/BlogBanner.png")] h-[445px] md:h-full bg-cover bg-right md:bg-center bg-no-repeat w-[327px]  md:w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 rounded-[25px]   '>
 
               <div className='pl-[69px] pt-[242.8px]'>
 
