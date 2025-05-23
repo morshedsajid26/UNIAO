@@ -56,24 +56,24 @@ const Blog = () => {
 
 
 
-              <div className='flex gap-[11px]'>
-                <span className='py-1 px-2.5 bg-white font-OS text-[18px] rounded-[10px]'>Gaming</span>
-
-                <span className='py-1 px-2.5 bg-white font-OS text-[18px] rounded-[10px]'>Stray</span>
-              </div>
-
-              <h3 className='font-Inter text-white text-[68px] mt-[9px] mb-[22px]'>Top digital game releases</h3>
-
-              <div className='flex items-center gap-[22.5px]'>
-                <p className='text-[24px] font-Inter text-[#E614FC]'>19 Sep, 23</p>
-
-                <p className='text-white font-OS text-[20px] flex items-center gap-[7px]'>
-                <IoTimerSharp className='text-white/40 h-[31px] w-[31px]' />
-               
-                3 min read
-                
-                </p>
-              </div>
+             <div className='flex gap-[6px]  md:gap-[11px]'>
+                                     <span className='py-1 px-[6px] md:px-2.5 bg-white font-OS text-[12px] md:text-[18px] rounded-[10px]'>Gaming</span>
+             
+                                     <span className='py-1 px-[6px] md:px-2.5 bg-white font-OS text-[12px] md:text-[18px] rounded-[10px]'>Stray</span>
+                                   </div>
+             
+                                   <h3 className='font-Inter text-white w-[198px] md:w-auto text-[26px] md:text-[68px] mt-[9px] mb-[17px] md:mb-[22px]'>Top digital game releases</h3>
+             
+                                   <div className='flex items-center gap-3 md:gap-[22.5px]'>
+                                     <p className='text-[13px] md:text-[24px] font-Inter text-[#E614FC]'>19 Sep, 23</p>
+             
+                                     <p className='text-white font-OS text-[14px] md:text-[20px] flex items-center gap-[5px] md:gap-[7px]'>
+                                     <IoTimerSharp className='text-white/40 h-[17px] md:h-[31px] w-[17px] md:w-[31px]' />
+                                   
+                                     3 min read
+                                     
+                                     </p>
+                                   </div>
 
 
               <div className='hidden md:flex gap-[35px] items-end mt-[46px] pb-[79px]'>
