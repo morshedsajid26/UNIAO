@@ -52,7 +52,7 @@ const Blog = () => {
 
               <div className=' bg-[url("/public/BlogBanner.png")] h-[445px] md:h-full bg-cover bg-right md:bg-center bg-no-repeat w-[327px]  md:w-[1664px] relative after:absolute after:w-full after:h-full after:bg-black/20 after:top-0 after:left-0 after:rounded-[25px] after:-z-30 z-30 rounded-[25px]   '>
 
-              <div className='pl-[69px] pt-[242.8px]'>
+              <div className='pl-7 md:pl-[69px] pt-[270px]  md:pt-[242.8px]'>
 
 
 
@@ -76,17 +76,19 @@ const Blog = () => {
                                    </div>
 
 
-              <div className='flex gap-[35px] items-end mt-[46px] pb-[79px]'>
+             
+
+
+              </div>
+               
+               
+               <div className='flex justify-between md:justify-normal md:gap-[35px] items-end mt-[46px] md:pb-[79px] md:pl-[69px]'>
                <img className='w-[85px] md:w-auto h-[85px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner1} alt="" />
                <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner2} alt="" />
-               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner3} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1 hidden md:block' src={BlogBanner3} alt="" />
                <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner4} alt="" />
                <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner5} alt="" />
               </div>
-
-
-              </div>
-              
                 
               </div>
 
