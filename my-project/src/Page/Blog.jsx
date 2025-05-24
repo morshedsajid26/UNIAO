@@ -76,12 +76,12 @@ const Blog = () => {
                                    </div>
 
 
-              <div className='hidden md:flex gap-[35px] items-end mt-[46px] pb-[79px]'>
-               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner1} alt="" />
-               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner2} alt="" />
-               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner3} alt="" />
-               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner4} alt="" />
-               <img className='border-4 border-white/30 rounded-[25px] p-1' src={BlogBanner5} alt="" />
+              <div className='flex gap-[35px] items-end mt-[46px] pb-[79px]'>
+               <img className='w-[85px] md:w-auto h-[85px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner1} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner2} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner3} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner4} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner5} alt="" />
               </div>
 
 
