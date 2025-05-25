@@ -94,10 +94,10 @@ const Blog = () => {
 
         </Container>
 
-        <Container className='pt-[202px] pb-[196px]'>
-        <div className='flex items-center justify-between mb-[35px]'>
+        <Container className='  pt-[202px] pb-20 md:pb-[196px]'>
+        <div className='flex items-center justify-between mb-4 md:mb-[35px]'>
                 <h1 className='text-[14px] md:text-[36px] font-OS text-white'>Latest articles</h1>
-                <div className='h-[1px] md:h-[2px] w-[40px] md:w-[1324px] bg-custom-gradient'
+                <div className='h-[1px] md:h-[2px] w-[205px] md:w-[1324px] bg-custom-gradient'
                 ></div>
 
                 
