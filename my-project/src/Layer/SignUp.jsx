@@ -5,7 +5,7 @@ import email from '/email-1.png'
 
 const SignUp = () => {
   return (
-    <div className='py-20 md:py-[174px]'>
+    <div className='py-20 md:pt-[174px] md:pb-[200px]'>
         <Container className=' bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% p-[2px] rounded-[25px] '>
             <div className='bg-[#1E2127] rounded-[25px] pt-[14.5px] pb-[19px] md:py-[51px] px-[21px] md:pl-[49px] :pr-[42px] flex flex-col md:flex-row items-center justify-between md:gap-0 gap-[16.8px]'>
                 <div className="left flex items-center gap-[13px] md:gap-6">

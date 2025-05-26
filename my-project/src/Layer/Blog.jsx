@@ -92,7 +92,7 @@ const Blog = () => {
 
 
   return (
-    <div className='pt-[168px]'>
+    <div>
         <Container>
 
         <div className='flex items-center justify-center gap-[43px] mb-[35px]'>
