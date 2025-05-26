@@ -24,7 +24,7 @@ const Banner = () => {
   return (
     <div className='mt-[50px]'>
 
-<Container className='bg-[url("/public/banner.png")] h-[445px] md:w-full bg-cover bg-center  w-[327px] md:h-[730px] after:rounded-[25px]  bg-no-repeat pb-[42px] md:pb-[87px]  pt-[103px] relative after:absolute after:content-[""] after:h-full  after:w-full  after:bg-black/10 after:top-0 after:left-0 after:-z-30 md:block flex items-end rounded-[25px] '>
+<Container className='bg-[url("/public/banner.png")] h-[445px] md:w-full bg-cover bg-center  w-[327px] md:h-[730px] after:rounded-[25px]  bg-no-repeat pb-[42px] md:pb-[87px]  pt-[103px] relative after:absolute after:content-[""] after:h-full  after:w-full  after:bg-black/20 after:top-0 after:left-0 after:-z-30 z-30  rounded-[25px] '>
 
 <div className='pl-[27px] md:pl-[69px]   z-30'>
 
@@ -64,7 +64,7 @@ const Banner = () => {
 </div>
 
 
-<div className='hidden md:flex gap-[35px] items-end mt-[103px]'>
+<div className='flex gap-[35px] items-end '>
  <img className='border-4 border-white/30 rounded-[25px] p-1' src={game1} alt="" />
  <img className='border-4 border-white/30 rounded-[25px] p-1' src={game2} alt="" />
  <img className='border-4 border-white/30 rounded-[25px] p-1' src={game3} alt="" />
