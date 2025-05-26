@@ -22,9 +22,9 @@ import line from '/line.png'
 
 const Banner = () => {
   return (
-    <div className='mt-[50px]'>
+    <div className='pt-7 md:pt-[50px] md:pb-0 pb-7 '>
 
-<Container className='bg-[url("/public/banner.png")] h-[445px] md:w-full bg-cover bg-center  w-[327px] md:h-[730px] after:rounded-[25px]  bg-no-repeat pb-[42px] md:pb-[87px]  pt-[103px] relative after:absolute after:content-[""] after:h-full  after:w-full  after:bg-black/20 after:top-0 after:left-0 after:-z-30 z-30  rounded-[25px] '>
+<Container className='bg-[url("/public/banner.png")] h-[445px] md:w-full bg-cover bg-center  w-[327px] md:h-[730px] after:rounded-[25px]  bg-no-repeat  md:pb-[87px]  md:pt-[103px] pt-[210px] relative after:absolute after:content-[""] after:h-full  after:w-full  after:bg-black/20 after:top-0 after:left-0 after:-z-30 z-30  rounded-[25px] '>
 
 <div className='pl-[27px] md:pl-[69px]   z-30'>
 
@@ -64,14 +64,15 @@ const Banner = () => {
 </div>
 
 
-<div className='flex gap-[35px] items-end '>
- <img className='border-4 border-white/30 rounded-[25px] p-1' src={game1} alt="" />
- <img className='border-4 border-white/30 rounded-[25px] p-1' src={game2} alt="" />
- <img className='border-4 border-white/30 rounded-[25px] p-1' src={game3} alt="" />
- <img className='border-4 border-white/30 rounded-[25px] p-1' src={game4} alt="" />
- <img className='border-4 border-white/30 rounded-[25px] p-1' src={game5} alt="" />
-</div>
 
+
+</div>
+<div className='flex justify-between md:justify-normal  md:pl-[69px] md:gap-[35px] items-end mt-[66px]   '>
+ <img className='border-2 md:border-4 w-[85px] h-[85px] md:w-auto md:h-auto border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={game1} alt="" />
+ <img className='border-2 md:border-4 w-[62px] h-[62px] md:w-auto md:h-auto border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={game2} alt="" />
+ <img className='border-2 md:border-4 w-[62px] h-[62px] md:w-auto md:h-auto border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={game3} alt="" />
+ <img className='border-2 md:border-4 w-[62px] h-[62px] md:w-auto md:h-auto border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={game4} alt="" />
+ <img className=' w-[62px] h-[62px] md:w-auto md:h-auto border-white/30 rounded-[15px] md:rounded-[25px] p-1 hidden md:block' src={game5} alt="" />
 </div>
 
 

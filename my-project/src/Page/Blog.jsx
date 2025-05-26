@@ -83,11 +83,11 @@ const Blog = () => {
                
                
                <div className='flex justify-between md:justify-normal md:gap-[35px] items-end mt-[46px] md:pb-[79px] md:pl-[69px]'>
-               <img className='w-[85px] md:w-auto h-[85px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner1} alt="" />
-               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner2} alt="" />
+               <img className='w-[85px] md:w-auto h-[85px] md:h-auto border-2 md:border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner1} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-2 md:border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner2} alt="" />
                <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1 hidden md:block' src={BlogBanner3} alt="" />
-               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner4} alt="" />
-               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner5} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-2 md:border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner4} alt="" />
+               <img className='w-[62px] md:w-auto h-[62px] md:h-auto border-2 md:border-4 border-white/30 rounded-[15px] md:rounded-[25px] p-1' src={BlogBanner5} alt="" />
               </div>
                 
               </div>
