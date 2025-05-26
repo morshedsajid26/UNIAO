@@ -78,8 +78,8 @@ const Review = () => {
     },
   ];
   return (
-    <div>
-      <Container className="flex items-center py-16 md:py-32 gap-x-16 relative ">
+    <div className="pt-[47px] pb-[91px] md:pt-[128px] md:pb-[144px]">
+      <Container className="flex items-center  gap-x-16 relative ">
         <div className="left w-1/3 sm:w-1/4 lg:w-1/3 xl:w-1/6  flex flex-col items-center gap-y-2 lg:gap-y-6 ">
           <p className="flex flex-col justify-center items-center font-openSans font-bold text-white text-sm sm:text-2xl lg:text-4xl">
             Trustpilot <span>Reviews</span>

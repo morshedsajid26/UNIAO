@@ -16,7 +16,7 @@ const LastOfUs = () => {
 
   let nevigate= useNavigate()
   return (
-    <div  className='py-[170px]' >
+    <div  className='py-20 md:py-[170px]' >
          <Container  className='  flex   gap-10 flex-col md:flex-row items-center'>
 
      

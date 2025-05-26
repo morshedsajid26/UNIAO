@@ -12,7 +12,7 @@ import resident from '/resident.png'
 
 const ResidentEvil = () => {
   return (
-    <div className='pt-[206px]'>
+    <div className='py-20 md:pb-[185px] md:pt-[206px]'>
           <Container className='  flex   gap-10 flex-col-reverse md:flex-row items-center'>
 
      
