@@ -27,8 +27,8 @@ import playstation from '/playstation.png'
 
 const Offer = () => {
   return (
-    <div className='pt-[180px]'>
-        <Container className=' grid md:grid-cols-3  gap-[76px]'>
+    <div className='py-20 md:pt-[191px] md:pb-[168px]'>
+        <Container className=' grid md:grid-cols-3 gap-20  md:gap-[46px]'>
 
             <div className="left">
                 <div className="top flex justify-between items-center">
