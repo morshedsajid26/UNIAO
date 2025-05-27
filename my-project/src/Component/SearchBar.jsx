@@ -11,10 +11,12 @@ import { FaHeart } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaCircleUser } from "react-icons/fa6";
 import Container from '../Layer/Container';
+import { useNavigate } from 'react-router-dom'
 
 
 
 const SearchBar = () => {
+  let nevigate= useNavigate()
   return (
     <div>
         <Container className='border-b border-white/10 pt-[50px] pb-[18.5px] md:pb-[36px] flex items-center justify-between'>
@@ -39,7 +41,7 @@ const SearchBar = () => {
 
             <div className='relative'>
             <Badge badgeContent={2} color="primary">
-            <FaShoppingBag className='w-[22.19px] md:w-[33.56px] h-[25.76px] md:h-[38.95px] text-white  ' /> 
+            <FaShoppingBag onClick={()=> nevigate ('/checkout/')} className='w-[22.19px] md:w-[33.56px] h-[25.76px] md:h-[38.95px] text-white  cursor-pointer ' /> 
             </Badge>
 
             
