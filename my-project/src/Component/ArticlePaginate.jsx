@@ -1,6 +1,7 @@
 import React, {  useState } from 'react';
 
 import ReactPaginate from 'react-paginate';
+import { useNavigate } from 'react-router-dom'
 
 
 import { MdKeyboardArrowRight, MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from 'react-icons/md';
@@ -10,9 +11,10 @@ import { IoTimerSharp } from 'react-icons/io5';
 const items = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 13, 14,0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,];
 
 let ArticleCard = ({src})=>{
+  let nevigate= useNavigate()
   return (
 
-  <div className='w-[327px] md:w-[526px] bg-[#1E2127] py-[14px] pl-2.5 md:px-6 md:pt-[27px] md:pb-[42px] rounded-[25px] flex md:inline-block gap-[14px] md:gap-0'>
+  <div onClick={()=> nevigate ('/article/open/')} className='w-[327px] md:w-[526px] bg-[#1E2127] py-[14px] pl-2.5 md:px-6 md:pt-[27px] md:pb-[42px] rounded-[25px] flex md:inline-block gap-[14px] md:gap-0 cursor-pointer'>
     <img className='w-[121px] md:w-auto h-[107px] md:h-auto'  src={src} alt="" />
 
    <div className=''>
