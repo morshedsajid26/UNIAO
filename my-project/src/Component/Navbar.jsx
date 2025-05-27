@@ -23,7 +23,7 @@ const Navbar = () => {
         <ul className='flex gap-2.5 md:gap-0 md:justify-between items-center '>
             <Li href='/shop/' imageClass='md:w-auto md:h-auto h-[24.31px] w-[31.5px] '  src={Li_1}/>
             <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_2}/>
-            <Li imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_3}/>
+            <Li href='/blog/' imageClass='md:w-auto md:h-auto h-[24.3px] w-[24.3px] ' src={Li_3}/>
             <Li imageClass='md:w-auto md:h-auto h-[25.5px] w-[18.4px] ' src={Li_4}/>
             
             <li className='md:flex hidden ' >
