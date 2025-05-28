@@ -3,8 +3,10 @@ import Container from '../Layer/Container'
 import star from '/star.png'
 import trustpilot from '/trustpilot.png'
 import secure from '/secure.png'
+import { useNavigate } from 'react-router-dom'
 
 const Cart = () => {
+  let nevigate= useNavigate()
   return (
     <div>
         <Container>
@@ -28,7 +30,7 @@ const Cart = () => {
 
           </div>
           <div className=" right w-[526px] mt-[63px] md:mt-0">
-            <div className="up w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] ">
+            <div className="up w-[327px] md:w-full rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] bg-[#ffffff]/5 ">
             
             <table className='flex justify-between items-start text-white font-inter text-[26px] font-extralight'>
             <th>
@@ -44,8 +46,26 @@ const Cart = () => {
             </th>
 
             </table>
+            <div className="coupon borber border-t border-b border-white/20 py-8 mt-[34px]">
+              <div className='flex justify-between'>
+                <input className='bg-[#15181D] py-4 pl-6 w-[334px] rounded-[10px] text-[21px] font-Inter ' type="text" placeholder='Coupon Code:' />
+
+                <button className='border py-4 px-7 text-[20px] rounded-[10px] text-white font-Inter'>Apply</button>
+              </div>
+
+              <div className='flex justify-between mt-5'>
+                <input className='bg-[#15181D] py-4 pl-6 w-[334px] rounded-[10px] text-[21px] font-Inter ' type="text" placeholder='Coupon Code:' />
+
+                <button className='border py-4 px-7 text-[20px] rounded-[10px] text-white font-Inter '>Apply</button>
+              </div>
+
             </div>
-            <div className="down w-[327px] md:w-full border border-white/15 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] mb-[199px] ">
+
+            <button onClick={()=> nevigate ('/checkout/')} className='bg-gradient-to-tl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% w-full font-OS text-white text-[24px] rounded-[10px] mt-[34px] py-3'> Proceed to Checkout</button>
+            </div>
+
+
+            <div className="down w-[327px] md:w-full bg-[#ffffff]/5 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] mb-[199px] mt-[48px] ">
               <div className='border-b w-[288px] md:w-[462px] border-white/15 flex flex-col items-center pb-[14px] md:pb-[35px]'>
               <div className="logo flex items-end gap-[6px] ">
                 <img className='w-[26px] h-[24px] md:w-[41.84px] md:h-[40.13px]' src={star} alt="" />
