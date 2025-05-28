@@ -41,7 +41,7 @@ const SearchBar = () => {
 
             <div className='relative'>
             <Badge badgeContent={2} color="primary">
-            <FaShoppingBag onClick={()=> nevigate ('/checkout/')} className='w-[22.19px] md:w-[33.56px] h-[25.76px] md:h-[38.95px] text-white  cursor-pointer ' /> 
+            <FaShoppingBag onClick={()=> nevigate ('/cart/')} className='w-[22.19px] md:w-[33.56px] h-[25.76px] md:h-[38.95px] text-white  cursor-pointer ' /> 
             </Badge>
 
             
