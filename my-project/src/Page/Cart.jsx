@@ -48,20 +48,20 @@ const Cart = () => {
             </table>
             <div className="coupon borber border-t border-b border-white/20 py-8 mt-[34px]">
               <div className='flex justify-between'>
-                <input className='bg-[#15181D] py-4 pl-6 w-[334px] rounded-[10px] text-[21px] font-Inter ' type="text" placeholder='Coupon Code:' />
+                <input className='bg-[#15181D] py-4 pl-6 w-[334px] rounded-[10px] text-[21px] font-Inter outline-none text-white ' type="text" placeholder='Coupon Code:' />
 
                 <button className='border py-4 px-7 text-[20px] rounded-[10px] text-white font-Inter'>Apply</button>
               </div>
 
               <div className='flex justify-between mt-5'>
-                <input className='bg-[#15181D] py-4 pl-6 w-[334px] rounded-[10px] text-[21px] font-Inter ' type="text" placeholder='Coupon Code:' />
+                <input className='bg-[#15181D] py-4 pl-6 w-[334px] rounded-[10px] text-[21px] font-Inter  outline-none text-white' type="text" placeholder='Coupon Code:' />
 
                 <button className='border py-4 px-7 text-[20px] rounded-[10px] text-white font-Inter '>Apply</button>
               </div>
 
             </div>
 
-            <button onClick={()=> nevigate ('/checkout/')} className='bg-gradient-to-tl from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% w-full font-OS text-white text-[24px] rounded-[10px] mt-[34px] py-3'> Proceed to Checkout</button>
+            <button onClick={()=> nevigate ('/checkout/')} className='bg-gradient-to-l from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% w-full font-OS text-white text-[24px] rounded-[10px] mt-[34px] py-3'> Proceed to Checkout</button>
             </div>
 
 
