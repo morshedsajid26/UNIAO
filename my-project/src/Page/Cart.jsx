@@ -5,6 +5,25 @@ import trustpilot from '/trustpilot.png'
 import secure from '/secure.png'
 import { useNavigate } from 'react-router-dom'
 
+import payment1 from '/payment1.png'
+import payment2 from '/payment2.png'
+import payment3 from '/payment3.png'
+import payment4 from '/payment4.png'
+import payment5 from '/payment5.png'
+import payment6 from '/payment6.png'
+import payment7 from '/payment7.png'
+import payment8 from '/payment8.png'
+import payment9 from '/payment9.png'
+import payment10 from '/payment10.png'
+import payment11 from '/payment11.png'
+
+let Icon= ({src})=>{
+  return(
+    <img className='w-[32.97px] md:w-[41.84px] h-[22.46px] md:h-[28.5px]' src={src} alt="" />
+
+  )
+}
+
 const Cart = () => {
   let nevigate= useNavigate()
   return (
@@ -61,7 +80,23 @@ const Cart = () => {
 
             </div>
 
+            <p className='flex justify-between text-[26px] text-white font-Inter pt-8'>Total <span>$102,76</span></p>
+
             <button onClick={()=> nevigate ('/checkout/')} className='bg-gradient-to-l from-[#FC00FF] from-1% via-[#7E6EEF] via-50% to-[#00DBDE] to-100% w-full font-OS text-white text-[24px] rounded-[10px] mt-[34px] py-3'> Proceed to Checkout</button>
+
+            <div className="icon grid grid-rows-2 grid-cols-6 w-[310px] ml-20 gap-y-2.5 gap-x-3 mt-8">
+              <Icon src={payment5}/>
+              <Icon src={payment2}/>
+              <Icon src={payment3}/>
+              <Icon src={payment4}/>
+              <Icon src={payment1}/>
+              <Icon src={payment6}/>
+              <Icon src={payment7}/>
+              <Icon src={payment8}/>
+              <Icon src={payment9}/>
+              <Icon src={payment10}/>
+              <Icon src={payment11}/>
+            </div>
             </div>
 
 
