@@ -103,8 +103,8 @@ const Cart = () => {
             <div className="down w-[327px] md:w-full bg-[#ffffff]/5 rounded-[15px] px-5 md:px-8 pt-8 pb-[48px] mb-[199px] mt-[48px] ">
               <div className='border-b w-[288px] md:w-[462px] border-white/15 flex flex-col items-center pb-[14px] md:pb-[35px]'>
               <div className="logo flex items-end gap-[6px] ">
-                <img className='w-[26px] h-[24px] md:w-[41.84px] md:h-[40.13px]' src={star} alt="" />
-                <img className='w-[89.86px] h-[19.5px] md:w-[144.53px] md:h-[31.52px]' src={trustpilot} alt="" />
+                <img className='w-[26px] h-[24px] md:w-[41.84px] md:h-[40.13px]' src={star} alt="star" />
+                <img className='w-[89.86px] h-[19.5px] md:w-[144.53px] md:h-[31.52px]' src={trustpilot} alt="trustpilot" />
               </div>
               
               
