@@ -45,7 +45,7 @@ const Cart = () => {
 
             <div className='flex flex-col md:flex-row justify-between '>
           <div className="left w-[1095px]">
-           c
+           
 
           </div>
           <div className=" right w-[526px] mt-[63px] md:mt-0">
