@@ -18,7 +18,7 @@ import { FaLock } from 'react-icons/fa'
 
 let Icon= ({src})=>{
   return(
-    <img className='w-[44px] md:w-[79.05px] h-[30px] md:h-[53.85px]' src={src} alt="" />
+    <img className='w-[44px] md:w-[79.05px] h-[30px] md:h-[53.85px]' src={src} alt="src" />
 
   )
 }

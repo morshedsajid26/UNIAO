@@ -238,10 +238,6 @@ const ArticleOpen = () => {
 
 
 
-
-
-
-
                   </div>
                 </div>
 

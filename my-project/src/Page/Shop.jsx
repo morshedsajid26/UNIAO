@@ -366,6 +366,7 @@ const Shop = () => {
           </div>
        </Container>
 
+
         <Container className='relative flex gap-[29.5px] mt-3 md:mt-20'>
           <div className="left w-[393px]  hidden md:flex md:flex-col gap-10" >
 
