@@ -24,6 +24,18 @@ let Icon= ({src})=>{
   )
 }
 
+let Product= ({src})=>{
+  return(
+    <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100%'>
+      <div className="image">
+        <img src={src} alt="src" />
+      </div>
+d
+    </div>
+
+  )
+}
+
 const Cart = () => {
   let nevigate= useNavigate()
   return (
@@ -45,6 +57,7 @@ const Cart = () => {
 
             <div className='flex flex-col md:flex-row justify-between '>
           <div className="left w-[1095px]">
+            <Product/>
            
 
           </div>
