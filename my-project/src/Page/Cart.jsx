@@ -17,6 +17,9 @@ import payment9 from '/payment9.png'
 import payment10 from '/payment10.png'
 import payment11 from '/payment11.png'
 
+import cartPhoto1 from '/cartPhoto1.png'
+import cartPhoto2 from '/cartPhoto2.png'
+
 let Icon= ({src})=>{
   return(
     <img className='w-[32.97px] md:w-[41.84px] h-[22.46px] md:h-[28.5px]' src={src} alt="" />
@@ -30,7 +33,7 @@ let Product= ({src})=>{
       <div className="image">
         <img src={src} alt="src" />
       </div>
-d
+
     </div>
 
   )
@@ -57,7 +60,11 @@ const Cart = () => {
 
             <div className='flex flex-col md:flex-row justify-between '>
           <div className="left w-[1095px]">
-            <Product/>
+            <Product
+            src={cartPhoto1}/>
+
+            <Product
+            src={cartPhoto2}/>
            
 
           </div>
