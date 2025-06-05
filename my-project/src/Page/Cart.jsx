@@ -29,10 +29,14 @@ let Icon= ({src})=>{
 
 let Product= ({src})=>{
   return(
-    <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100%'>
-      <div className="image">
+    <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100% rounded-[25px] flex '>
+      <div className="image mr-[60px]">
         <img src={src} alt="src" />
       </div>
+
+      <div className="info mr-[118px]">info</div>
+      <div className="price mr-[63px]">price</div>
+      <div className="icon">icon</div>
 
     </div>
 
@@ -59,7 +63,7 @@ const Cart = () => {
             </div>
 
             <div className='flex flex-col md:flex-row justify-between '>
-          <div className="left w-[1095px]">
+          <div className="left w-[1095px] flex flex-col gap-[60px]">
             <Product
             src={cartPhoto1}/>
 
