@@ -19,6 +19,10 @@ import payment11 from '/payment11.png'
 
 import cartPhoto1 from '/cartPhoto1.png'
 import cartPhoto2 from '/cartPhoto2.png'
+import icon1 from '/path-1.png'
+import line from '/line.png'
+import icon5 from '/path-4.png'
+
 import { HiLightningBolt } from 'react-icons/hi'
 
 let Icon= ({src})=>{
@@ -28,7 +32,7 @@ let Icon= ({src})=>{
   )
 }
 
-let Product= ({src})=>{
+let Product= ({src,title})=>{
   return(
     <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100% rounded-[25px] flex '>
       <div className="image mr-[60px]">
@@ -36,7 +40,14 @@ let Product= ({src})=>{
       </div>
 
       <div className="info mr-[118px] flex justify-center flex-col">
-        <h3 className='font-Inter text-white text-[30px]'>The Last Of Us Part II</h3>
+        <div className='flex gap-[22px]'>
+          <h3 className='font-Inter text-white text-[30px]'>{title}</h3>
+        <div className='flex items-center gap-[21px]'>
+        <img className='md:w-[39px] w-[15.61px] h-[12.05px] md:h-[30px]' src={icon1} alt="" />
+         <img className='w-[1px] h-[11px] md:h-[29px]' src={line} alt="" />
+         <img className='w-[13.5px] md:w-[33.5px] h-[13.5px] md:h-[33.5px]' src={icon5} alt="" />
+        </div>
+        </div>
         <div className='flex gap-[18px] mt-[19px]'>
           <button className='text-[#2BB6E4] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#2BB6E4] font-OS'>
           Save 25%
@@ -92,10 +103,12 @@ const Cart = () => {
             <div className='flex flex-col md:flex-row justify-between '>
           <div className="left w-[1095px] flex flex-col gap-[60px]">
             <Product
-            src={cartPhoto1}/>
+            src={cartPhoto1}
+            title='The Last Of Us Part II'/>
 
             <Product
-            src={cartPhoto2}/>
+            src={cartPhoto2}
+            title='Ghost Runner'/>
            
 
           </div>
