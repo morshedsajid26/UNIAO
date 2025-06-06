@@ -24,6 +24,8 @@ import line from '/line.png'
 import icon5 from '/path-4.png'
 
 import { HiLightningBolt } from 'react-icons/hi'
+import { FaRegHeart } from 'react-icons/fa'
+import { ImCross } from 'react-icons/im'
 
 let Icon= ({src})=>{
   return(
@@ -74,7 +76,14 @@ let Product= ({src,title})=>{
         </div>
       </div>
       <div className="price mr-[63px]">price</div>
-      <div className="icon">icon</div>
+      <div className="icon flex flex-col justify-between">
+        <div className='px-5 py-[54px] border-2 border-white/10 0 rounded-[20px]  '>
+          <FaRegHeart className='w-[26.50px] h-[26.22px] text-[#707070]' />
+        </div>
+        <div className='px-[27px] py-[59px] border-2 border-white/10 rounded-[20px]  0 '>
+          <ImCross className='w-[16.75px] h-[16.75px] text-[#707070]' />
+        </div>
+      </div>
 
     </div>
 
