@@ -37,7 +37,7 @@ let Icon= ({src})=>{
 let Product= ({src,title})=>{
   return(
     <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100% rounded-[25px] flex '>
-      <div className="image mr-[60px]">
+      <div className="image mr-[45px]">
         <img src={src} alt="src" />
       </div>
 
@@ -75,7 +75,11 @@ let Product= ({src,title})=>{
             </button>
         </div>
       </div>
-      <div className="price mr-[63px]">price</div>
+      <div className="price mr-[63px] flex flex-col justify-center">
+        <p className='text-[24px] font-OS text-[#78797D]'>Unit Price:</p>
+        <del className='text-[24px] font-OS text-[#78797D]'>$59,99</del>
+        <p className='font-Inter text-[26px] text-[#E614FC] mt-[6px]'>$35,99</p>
+      </div>
       <div className="icon flex flex-col justify-between">
         <div className='px-5 py-[54px] border-2 border-white/10 0 rounded-[20px]  '>
           <FaRegHeart className='w-[26.50px] h-[26.22px] text-[#707070]' />
