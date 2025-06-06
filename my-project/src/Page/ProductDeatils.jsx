@@ -106,7 +106,7 @@ const ProductDeatils = () => {
 
 
           <div className="four flex gap-[14px]">
-            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-r from-[#18C5E1] from-0% via-[#text-[14px] md:8666EF] via-30% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-r from-[#18C5E1] from-0% via-[#8666EF] via-30% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             Deluxe
             </button>
 

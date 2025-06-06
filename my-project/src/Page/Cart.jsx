@@ -19,6 +19,7 @@ import payment11 from '/payment11.png'
 
 import cartPhoto1 from '/cartPhoto1.png'
 import cartPhoto2 from '/cartPhoto2.png'
+import { HiLightningBolt } from 'react-icons/hi'
 
 let Icon= ({src})=>{
   return(
@@ -34,7 +35,33 @@ let Product= ({src})=>{
         <img src={src} alt="src" />
       </div>
 
-      <div className="info mr-[118px]">info</div>
+      <div className="info mr-[118px] flex justify-center flex-col">
+        <h3 className='font-Inter text-white text-[30px]'>The Last Of Us Part II</h3>
+        <div className='flex gap-[18px] mt-[19px]'>
+          <button className='text-[#2BB6E4] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#2BB6E4] font-OS'>
+          Save 25%
+          </button>
+          <button className='text-[#E614FC] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#E614FC] font-OS flex items-center gap-2'>
+            <HiLightningBolt className='w-[20.73px] h-[29.61px]'/>
+          Instant Delivery
+          </button>
+          </div>
+
+        <div className='flex i gap-[14px] mt-7'>
+          <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-tr from-[#18C5E1] from-1% via-[#8666EF] via-50% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
+            PS5
+            </button>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-tr from-[#18C5E1] from-1% via-[#8666EF] via-50% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
+            Key
+            </button>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-tr from-[#18C5E1] from-1% via-[#8666EF] via-50% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
+            Deluxe edition
+            </button>
+            <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-tr from-[#18C5E1] from-1% via-[#8666EF] via-50% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
+           UK
+            </button>
+        </div>
+      </div>
       <div className="price mr-[63px]">price</div>
       <div className="icon">icon</div>
 
