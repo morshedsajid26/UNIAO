@@ -60,7 +60,7 @@ let Product= ({src,title})=>{
           </button>
           </div>
 
-        <div className='flex i gap-[14px] mt-7'>
+        <div className='flex gap-[14px] mt-7'>
           <button className='md:py-2.5 md:px-3 p-[5px] bg-gradient-to-tr from-[#18C5E1] from-1% via-[#8666EF] via-50% to-[#FB01FF] to-100% rounded-[10px] md:rounded-[15px] font-OS text-[14px] md:text-[24px] text-white'>
             PS5
             </button>
