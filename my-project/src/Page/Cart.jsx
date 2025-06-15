@@ -36,14 +36,14 @@ let Icon= ({src})=>{
 
 let Product= ({src,title})=>{
   return(
-    <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100% rounded-[25px] flex '>
+    <div className='bg-gradient-to-l from-[#16191D] from-1% via-[#252628] via-50% to-[#252628] to-100% rounded-[25px] md:flex grid grid-cols-2 grid-rows-2 '>
       <div className="image mr-[45px]">
-        <img src={src} alt="src" />
+        <img className='w-[148px] h-[167px] md:w-auto md:h-auto' src={src} alt="src" />
       </div>
 
       <div className="info mr-[118px] flex justify-center flex-col">
         <div className='flex gap-[22px]'>
-          <h3 className='font-Inter text-white text-[30px]'>{title}</h3>
+          <h3 className='font-Inter text-white text-[16px] md:text-[30px]'>{title}</h3>
         <div className='flex items-center gap-[21px]'>
         <img className='md:w-[39px] w-[15.61px] h-[12.05px] md:h-[30px]' src={icon1} alt="" />
          <img className='w-[1px] h-[11px] md:h-[29px]' src={line} alt="" />
@@ -51,10 +51,10 @@ let Product= ({src,title})=>{
         </div>
         </div>
         <div className='flex gap-[18px] mt-[19px]'>
-          <button className='text-[#2BB6E4] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#2BB6E4] font-OS'>
+          <button className='text-[#2BB6E4] text-[14px] md:text-[24px] p-[6px] md:py-[13px] md:px-[18px] border rounded-[10px] border-[#2BB6E4] font-OS'>
           Save 25%
           </button>
-          <button className='text-[#E614FC] text-[24px] py-[13px] px-[18px] border rounded-[10px] border-[#E614FC] font-OS flex items-center gap-2'>
+          <button className='text-[#E614FC] text-[14px] md:text-[24px] p-[6px] md:py-[13px] md:px-[18px] border rounded-[10px] border-[#E614FC] font-OS flex items-center gap-2'>
             <HiLightningBolt className='w-[20.73px] h-[29.61px]'/>
           Instant Delivery
           </button>
@@ -76,9 +76,9 @@ let Product= ({src,title})=>{
         </div>
       </div>
       <div className="price mr-[63px] flex flex-col justify-center">
-        <p className='text-[24px] font-OS text-[#78797D]'>Unit Price:</p>
-        <del className='text-[24px] font-OS text-[#78797D]'>$59,99</del>
-        <p className='font-Inter text-[26px] text-[#E614FC] mt-[6px]'>$35,99</p>
+        <p className='text-[15px] md:text-[24px] font-OS text-[#78797D]'>Unit Price:</p>
+        <del className='text-[15px] md:text-[24px] font-OS text-[#78797D]'>$59,99</del>
+        <p className='font-Inter text-[16px] md:text-[26px] text-[#E614FC] mt-[6px]'>$35,99</p>
       </div>
       <div className="icon flex flex-col justify-between">
         <div className='px-5 py-[54px] border-2 border-white/10 0 rounded-[20px]  '>
